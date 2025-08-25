@@ -1,0 +1,76 @@
+2024-10-10 14:07:57.329 +02:00 [INF] User profile is available. Using 'C:\Users\birko\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-10 14:07:57.601 +02:00 [INF] Now listening on: https://localhost:7004
+2024-10-10 14:07:57.605 +02:00 [INF] Now listening on: http://localhost:5272
+2024-10-10 14:07:57.614 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-10 14:07:57.618 +02:00 [INF] Hosting environment: Development
+2024-10-10 14:07:57.621 +02:00 [INF] Content root path: C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\GalleryNote project\GalleryNote
+2024-10-10 14:07:57.871 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-10-10 14:07:57.936 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-10-10 14:07:57.961 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-10-10 14:07:57.977 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-10 14:07:58.102 +02:00 [INF] Executed ViewResult - view Index executed in 127.4024ms.
+2024-10-10 14:07:58.107 +02:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 144.1059ms
+2024-10-10 14:07:58.107 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-10-10 14:07:58.116 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 246.5195ms
+2024-10-10 14:07:58.117 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/js/jquery.validate.unobtrusive.js - null null
+2024-10-10 14:07:58.119 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/js/jquery.validate.js - null null
+2024-10-10 14:07:58.176 +02:00 [INF] Sending file. Request path: '/js/jquery.validate.unobtrusive.js'. Physical path: 'C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\GalleryNote project\GalleryNote\wwwroot\js\jquery.validate.unobtrusive.js'
+2024-10-10 14:07:58.176 +02:00 [INF] Sending file. Request path: '/js/jquery.validate.js'. Physical path: 'C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\GalleryNote project\GalleryNote\wwwroot\js\jquery.validate.js'
+2024-10-10 14:07:58.176 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/js/jquery.validate.unobtrusive.js - 200 19820 text/javascript 59.76ms
+2024-10-10 14:07:58.179 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/js/jquery.validate.js - 200 52536 text/javascript 60.4264ms
+2024-10-10 14:08:06.834 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-10-10 14:08:06.839 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-10-10 14:08:06.840 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-10-10 14:08:06.844 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-10 14:08:06.865 +02:00 [INF] Executed ViewResult - view Index executed in 22.416ms.
+2024-10-10 14:08:06.866 +02:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 25.0496ms
+2024-10-10 14:08:06.866 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-10-10 14:08:06.867 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 33.0308ms
+2024-10-10 14:08:09.556 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Item/Table - null null
+2024-10-10 14:08:09.559 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.Table (GalleryNote)'
+2024-10-10 14:08:09.577 +02:00 [INF] Route matched with {action = "Table", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table() on controller GalleryNote.Controllers.ItemController (GalleryNote).
+2024-10-10 14:08:09.787 +02:00 [INF] Executing ViewResult, running view Table.
+2024-10-10 14:08:09.822 +02:00 [INF] Executed ViewResult - view Table executed in 36.7359ms.
+2024-10-10 14:08:09.822 +02:00 [INF] Executed action GalleryNote.Controllers.ItemController.Table (GalleryNote) in 245.1268ms
+2024-10-10 14:08:09.822 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.ItemController.Table (GalleryNote)'
+2024-10-10 14:08:09.837 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Item/Table - 200 null text/html; charset=utf-8 280.842ms
+2024-10-10 14:08:11.269 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-10-10 14:08:11.269 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-10-10 14:08:11.269 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-10-10 14:08:11.270 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-10 14:08:11.272 +02:00 [INF] Executed ViewResult - view Index executed in 2.2343ms.
+2024-10-10 14:08:11.272 +02:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 2.5522ms
+2024-10-10 14:08:11.272 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-10-10 14:08:11.272 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 3.8381ms
+2024-10-10 14:08:12.095 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Item/Table - null null
+2024-10-10 14:08:12.097 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.Table (GalleryNote)'
+2024-10-10 14:08:12.097 +02:00 [INF] Route matched with {action = "Table", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table() on controller GalleryNote.Controllers.ItemController (GalleryNote).
+2024-10-10 14:08:12.214 +02:00 [INF] Executing ViewResult, running view Table.
+2024-10-10 14:08:12.219 +02:00 [INF] Executed ViewResult - view Table executed in 5.3141ms.
+2024-10-10 14:08:12.219 +02:00 [INF] Executed action GalleryNote.Controllers.ItemController.Table (GalleryNote) in 122.148ms
+2024-10-10 14:08:12.220 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.ItemController.Table (GalleryNote)'
+2024-10-10 14:08:12.220 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Item/Table - 200 null text/html; charset=utf-8 125.4647ms
+2024-10-10 14:08:18.126 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Item/Create - null null
+2024-10-10 14:08:18.128 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.Create (GalleryNote)'
+2024-10-10 14:08:18.136 +02:00 [INF] Route matched with {action = "Create", controller = "Item"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller GalleryNote.Controllers.ItemController (GalleryNote).
+2024-10-10 14:08:18.153 +02:00 [INF] Executing ViewResult, running view Create.
+2024-10-10 14:08:18.305 +02:00 [INF] Executed ViewResult - view Create executed in 156.5944ms.
+2024-10-10 14:08:18.305 +02:00 [INF] Executed action GalleryNote.Controllers.ItemController.Create (GalleryNote) in 169.3596ms
+2024-10-10 14:08:18.306 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.ItemController.Create (GalleryNote)'
+2024-10-10 14:08:18.306 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Item/Create - 200 null text/html; charset=utf-8 180.3056ms
+2024-10-10 14:08:32.845 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Item/Create - null null
+2024-10-10 14:08:32.846 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.Create (GalleryNote)'
+2024-10-10 14:08:32.847 +02:00 [INF] Route matched with {action = "Create", controller = "Item"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller GalleryNote.Controllers.ItemController (GalleryNote).
+2024-10-10 14:08:32.848 +02:00 [INF] Executing ViewResult, running view Create.
+2024-10-10 14:08:32.871 +02:00 [INF] Executed ViewResult - view Create executed in 22.9436ms.
+2024-10-10 14:08:32.871 +02:00 [INF] Executed action GalleryNote.Controllers.ItemController.Create (GalleryNote) in 24.146ms
+2024-10-10 14:08:32.871 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.ItemController.Create (GalleryNote)'
+2024-10-10 14:08:32.872 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Item/Create - 200 null text/html; charset=utf-8 26.6368ms
+2024-10-10 14:10:12.250 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Item/Table - null null
+2024-10-10 14:10:12.251 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.Table (GalleryNote)'
+2024-10-10 14:10:12.251 +02:00 [INF] Route matched with {action = "Table", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table() on controller GalleryNote.Controllers.ItemController (GalleryNote).
+2024-10-10 14:10:12.299 +02:00 [INF] Executing ViewResult, running view Table.
+2024-10-10 14:10:12.303 +02:00 [INF] Executed ViewResult - view Table executed in 4.514ms.
+2024-10-10 14:10:12.304 +02:00 [INF] Executed action GalleryNote.Controllers.ItemController.Table (GalleryNote) in 52.036ms
+2024-10-10 14:10:12.304 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.ItemController.Table (GalleryNote)'
+2024-10-10 14:10:12.304 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Item/Table - 200 null text/html; charset=utf-8 54.7962ms

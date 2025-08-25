@@ -1,0 +1,540 @@
+2024-12-02 08:48:19.424 +01:00 [INF] User profile is available. Using 'C:\Users\birko\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-02 08:48:20.723 +01:00 [INF] Now listening on: http://localhost:5272
+2024-12-02 08:48:20.733 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-02 08:48:20.735 +01:00 [INF] Hosting environment: Development
+2024-12-02 08:48:20.735 +01:00 [INF] Content root path: C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\eksamen\GalleryNote
+2024-12-02 08:48:25.455 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-12-02 08:48:25.644 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-12-02 08:48:25.688 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-12-02 08:48:25.720 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-02 08:48:26.083 +01:00 [INF] Executed ViewResult - view Index executed in 354.3033ms.
+2024-12-02 08:48:26.094 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 403.0589ms
+2024-12-02 08:48:26.095 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-12-02 08:48:26.173 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 711.9966ms
+2024-12-02 08:48:26.206 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/js/jquery.min.js - null null
+2024-12-02 08:48:26.206 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/js/jquery.validate.js - null null
+2024-12-02 08:48:26.227 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/js/bootstrap.js - null null
+2024-12-02 08:48:26.275 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/js/jquery.validate.unobtrusive.js - null null
+2024-12-02 08:48:26.296 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:48:26.322 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 25.1217ms
+2024-12-02 08:48:26.325 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:48:26.412 +01:00 [INF] Sending file. Request path: '/js/jquery.validate.js'. Physical path: 'C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\eksamen\GalleryNote\wwwroot\js\jquery.validate.js'
+2024-12-02 08:48:26.414 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/js/jquery.validate.js - 200 52538 text/javascript 208.051ms
+2024-12-02 08:48:26.479 +01:00 [INF] Sending file. Request path: '/js/jquery.validate.unobtrusive.js'. Physical path: 'C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\eksamen\GalleryNote\wwwroot\js\jquery.validate.unobtrusive.js'
+2024-12-02 08:48:26.479 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/js/jquery.validate.unobtrusive.js - 200 19820 text/javascript 204.5534ms
+2024-12-02 08:48:26.495 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example1.jpg - null null
+2024-12-02 08:48:26.495 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example2.jpg - null null
+2024-12-02 08:48:26.548 +01:00 [INF] Sending file. Request path: '/js/jquery.min.js'. Physical path: 'C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\eksamen\GalleryNote\wwwroot\js\jquery.min.js'
+2024-12-02 08:48:26.548 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/js/jquery.min.js - 200 87534 text/javascript 342.6326ms
+2024-12-02 08:48:26.682 +01:00 [INF] Sending file. Request path: '/images/example1.jpg'. Physical path: 'C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\eksamen\GalleryNote\wwwroot\images\example1.jpg'
+2024-12-02 08:48:26.685 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example1.jpg - 200 2534115 image/jpeg 187.2621ms
+2024-12-02 08:48:26.689 +01:00 [INF] Sending file. Request path: '/images/example2.jpg'. Physical path: 'C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\eksamen\GalleryNote\wwwroot\images\example2.jpg'
+2024-12-02 08:48:26.690 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example2.jpg - 200 2724773 image/jpeg 194.983ms
+2024-12-02 08:48:26.709 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example3.jpg - null null
+2024-12-02 08:48:26.824 +01:00 [INF] Sending file. Request path: '/js/bootstrap.js'. Physical path: 'C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\eksamen\GalleryNote\wwwroot\js\bootstrap.js'
+2024-12-02 08:48:26.824 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/js/bootstrap.js - 200 145438 text/javascript 597.6258ms
+2024-12-02 08:48:26.926 +01:00 [INF] Sending file. Request path: '/images/example3.jpg'. Physical path: 'C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\eksamen\GalleryNote\wwwroot\images\example3.jpg'
+2024-12-02 08:48:26.927 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example3.jpg - 200 1052310 image/jpeg 217.973ms
+2024-12-02 08:48:34.651 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Grid - null null
+2024-12-02 08:48:34.659 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-12-02 08:48:34.670 +01:00 [INF] Route matched with {action = "Grid", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Grid() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-12-02 08:48:35.356 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-12-02 08:48:35.390 +01:00 [INF] Executed ViewResult - view Grid executed in 37.0133ms.
+2024-12-02 08:48:35.391 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Grid (GalleryNote) in 720.565ms
+2024-12-02 08:48:35.391 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-12-02 08:48:35.411 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Grid - 200 null text/html; charset=utf-8 760.7055ms
+2024-12-02 08:48:35.449 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/blomst.jpg - null null
+2024-12-02 08:48:35.449 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/blad.jpg - null null
+2024-12-02 08:48:35.452 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:48:35.455 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 2.8351ms
+2024-12-02 08:48:35.456 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:48:35.471 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/skog.jpg - null null
+2024-12-02 08:48:35.646 +01:00 [INF] Sending file. Request path: '/images/blomst.jpg'. Physical path: 'C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\eksamen\GalleryNote\wwwroot\images\blomst.jpg'
+2024-12-02 08:48:35.647 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/blomst.jpg - 200 1244472 image/jpeg 197.686ms
+2024-12-02 08:48:36.106 +01:00 [INF] Sending file. Request path: '/images/blad.jpg'. Physical path: 'C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\eksamen\GalleryNote\wwwroot\images\blad.jpg'
+2024-12-02 08:48:36.107 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/blad.jpg - 200 3504672 image/jpeg 657.7475ms
+2024-12-02 08:48:36.111 +01:00 [INF] Sending file. Request path: '/images/skog.jpg'. Physical path: 'C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\eksamen\GalleryNote\wwwroot\images\skog.jpg'
+2024-12-02 08:48:36.111 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/skog.jpg - 200 3487662 image/jpeg 640.9055ms
+2024-12-02 08:48:42.943 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - null null
+2024-12-02 08:48:42.945 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-12-02 08:48:42.964 +01:00 [INF] Route matched with {action = "Grid", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-12-02 08:48:43.167 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-12-02 08:48:43.196 +01:00 [INF] Executed ViewResult - view Grid executed in 32.4321ms.
+2024-12-02 08:48:43.197 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Grid (GalleryNote) in 232.2169ms
+2024-12-02 08:48:43.197 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-12-02 08:48:43.202 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - 200 null text/html; charset=utf-8 258.3187ms
+2024-12-02 08:48:43.243 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:48:43.249 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 5.9591ms
+2024-12-02 08:48:43.250 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:48:48.004 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Home/Upload?active=active - null null
+2024-12-02 08:48:48.018 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-12-02 08:48:48.039 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-12-02 08:48:48.040 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Home/Upload?active=active - 302 0 null 35.8225ms
+2024-12-02 08:48:48.048 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Identity/Account/Login?ReturnUrl=%2FHome%2FUpload%3Factive%3Dactive - null null
+2024-12-02 08:48:48.050 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-02 08:48:48.098 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-02 08:48:48.173 +01:00 [INF] Executing handler method GalleryNote.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-12-02 08:48:48.186 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-12-02 08:48:48.190 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-12-02 08:48:48.199 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-02 08:48:48.200 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-02 08:48:48.330 +01:00 [INF] Executed page /Account/Login in 231.307ms
+2024-12-02 08:48:48.331 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-02 08:48:48.332 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Identity/Account/Login?ReturnUrl=%2FHome%2FUpload%3Factive%3Dactive - 200 null text/html; charset=utf-8 283.4978ms
+2024-12-02 08:48:48.397 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-12-02 08:48:48.398 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:48:48.398 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-12-02 08:48:48.398 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - 404 0 null 1.0137ms
+2024-12-02 08:48:48.399 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js, Response status code: 404
+2024-12-02 08:48:48.400 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 404 0 null 1.4189ms
+2024-12-02 08:48:48.400 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-12-02 08:48:48.404 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 5.263ms
+2024-12-02 08:48:48.405 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:48:58.529 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Identity/Account/Login?ReturnUrl=%2FHome%2FUpload%3Factive%3Dactive - application/x-www-form-urlencoded 264
+2024-12-02 08:48:58.539 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-02 08:48:58.541 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-02 08:48:58.595 +01:00 [INF] Executing handler method GalleryNote.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-12-02 08:48:59.313 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-02 08:48:59.315 +01:00 [INF] User logged in.
+2024-12-02 08:48:59.317 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-12-02 08:48:59.321 +01:00 [INF] Executing LocalRedirectResult, redirecting to /Home/Upload?active=active.
+2024-12-02 08:48:59.322 +01:00 [INF] Executed page /Account/Login in 780.3928ms
+2024-12-02 08:48:59.322 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-02 08:48:59.328 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Identity/Account/Login?ReturnUrl=%2FHome%2FUpload%3Factive%3Dactive - 302 0 null 798.8069ms
+2024-12-02 08:48:59.330 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Home/Upload?active=active - null null
+2024-12-02 08:48:59.348 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Upload (GalleryNote)'
+2024-12-02 08:48:59.350 +01:00 [INF] Route matched with {action = "Upload", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-12-02 08:48:59.354 +01:00 [INF] Executing ViewResult, running view Upload.
+2024-12-02 08:48:59.396 +01:00 [INF] Executed ViewResult - view Upload executed in 45.2228ms.
+2024-12-02 08:48:59.397 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Upload (GalleryNote) in 46.7013ms
+2024-12-02 08:48:59.397 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Upload (GalleryNote)'
+2024-12-02 08:48:59.397 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Home/Upload?active=active - 200 null text/html; charset=utf-8 66.703ms
+2024-12-02 08:48:59.437 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:48:59.445 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 7.6831ms
+2024-12-02 08:48:59.445 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:49:05.317 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Create - null null
+2024-12-02 08:49:05.341 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Create (GalleryNote)'
+2024-12-02 08:49:05.349 +01:00 [INF] Route matched with {action = "Create", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-12-02 08:49:05.351 +01:00 [INF] Executing ViewResult, running view Create.
+2024-12-02 08:49:05.417 +01:00 [INF] Executed ViewResult - view Create executed in 67.8587ms.
+2024-12-02 08:49:05.418 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Create (GalleryNote) in 68.5974ms
+2024-12-02 08:49:05.418 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Create (GalleryNote)'
+2024-12-02 08:49:05.419 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Create - 200 null text/html; charset=utf-8 101.8676ms
+2024-12-02 08:49:05.457 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:49:05.466 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 8.9633ms
+2024-12-02 08:49:05.466 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:49:19.390 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Image/Create - multipart/form-data; boundary=----WebKitFormBoundarypoaZAT8tMlvL7tfA 225892
+2024-12-02 08:49:19.404 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Create (GalleryNote)'
+2024-12-02 08:49:19.426 +01:00 [INF] Route matched with {action = "Create", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(GalleryNote.Models.Image, Microsoft.AspNetCore.Http.IFormFile) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-12-02 08:49:19.952 +01:00 [INF] Executing RedirectResult, redirecting to /Image/Grid.
+2024-12-02 08:49:19.954 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Create (GalleryNote) in 527.6994ms
+2024-12-02 08:49:19.955 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Create (GalleryNote)'
+2024-12-02 08:49:19.958 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Image/Create - 302 0 null 567.435ms
+2024-12-02 08:49:19.963 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Grid - null null
+2024-12-02 08:49:19.970 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-12-02 08:49:19.970 +01:00 [INF] Route matched with {action = "Grid", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Grid() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-12-02 08:49:19.974 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-12-02 08:49:19.978 +01:00 [INF] Executed ViewResult - view Grid executed in 4.502ms.
+2024-12-02 08:49:19.979 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Grid (GalleryNote) in 8.3091ms
+2024-12-02 08:49:19.979 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-12-02 08:49:19.985 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Grid - 200 null text/html; charset=utf-8 16.2382ms
+2024-12-02 08:49:20.029 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/1.jpg - null null
+2024-12-02 08:49:20.029 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:49:20.036 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 6.7428ms
+2024-12-02 08:49:20.037 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:49:20.052 +01:00 [INF] Sending file. Request path: '/images/1.jpg'. Physical path: 'C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\eksamen\GalleryNote\wwwroot\images\1.jpg'
+2024-12-02 08:49:20.053 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/1.jpg - 200 225303 image/jpeg 23.0583ms
+2024-12-02 08:49:24.232 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Home/Upload?active=active - null null
+2024-12-02 08:49:24.237 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Upload (GalleryNote)'
+2024-12-02 08:49:24.237 +01:00 [INF] Route matched with {action = "Upload", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-12-02 08:49:24.237 +01:00 [INF] Executing ViewResult, running view Upload.
+2024-12-02 08:49:24.241 +01:00 [INF] Executed ViewResult - view Upload executed in 3.3199ms.
+2024-12-02 08:49:24.244 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Upload (GalleryNote) in 6.5266ms
+2024-12-02 08:49:24.245 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Upload (GalleryNote)'
+2024-12-02 08:49:24.246 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Home/Upload?active=active - 200 null text/html; charset=utf-8 13.8135ms
+2024-12-02 08:49:24.289 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:49:24.294 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 5.4186ms
+2024-12-02 08:49:24.295 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:49:25.693 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Create - null null
+2024-12-02 08:49:25.697 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Create (GalleryNote)'
+2024-12-02 08:49:25.697 +01:00 [INF] Route matched with {action = "Create", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-12-02 08:49:25.698 +01:00 [INF] Executing ViewResult, running view Create.
+2024-12-02 08:49:25.705 +01:00 [INF] Executed ViewResult - view Create executed in 7.4324ms.
+2024-12-02 08:49:25.705 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Create (GalleryNote) in 7.9065ms
+2024-12-02 08:49:25.705 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Create (GalleryNote)'
+2024-12-02 08:49:25.706 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Create - 200 null text/html; charset=utf-8 12.9894ms
+2024-12-02 08:49:25.744 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:49:25.753 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 8.3812ms
+2024-12-02 08:49:25.753 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:49:40.212 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Image/Create - multipart/form-data; boundary=----WebKitFormBoundaryfCKh11WmliSjB9mW 122341
+2024-12-02 08:49:40.216 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Create (GalleryNote)'
+2024-12-02 08:49:40.216 +01:00 [INF] Route matched with {action = "Create", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(GalleryNote.Models.Image, Microsoft.AspNetCore.Http.IFormFile) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-12-02 08:49:40.314 +01:00 [INF] Executing RedirectResult, redirecting to /Image/Grid.
+2024-12-02 08:49:40.315 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Create (GalleryNote) in 98.8882ms
+2024-12-02 08:49:40.316 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Create (GalleryNote)'
+2024-12-02 08:49:40.321 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Image/Create - 302 0 null 109.1628ms
+2024-12-02 08:49:40.330 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Grid - null null
+2024-12-02 08:49:40.335 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-12-02 08:49:40.335 +01:00 [INF] Route matched with {action = "Grid", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Grid() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-12-02 08:49:40.338 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-12-02 08:49:40.343 +01:00 [INF] Executed ViewResult - view Grid executed in 4.9305ms.
+2024-12-02 08:49:40.343 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Grid (GalleryNote) in 7.4081ms
+2024-12-02 08:49:40.343 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-12-02 08:49:40.345 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Grid - 200 null text/html; charset=utf-8 14.765ms
+2024-12-02 08:49:40.401 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/giannisportrett.png - null null
+2024-12-02 08:49:40.403 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:49:40.404 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/1.jpg - null null
+2024-12-02 08:49:40.406 +01:00 [INF] Sending file. Request path: '/images/giannisportrett.png'. Physical path: 'C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\eksamen\GalleryNote\wwwroot\images\giannisportrett.png'
+2024-12-02 08:49:40.407 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 4.0055ms
+2024-12-02 08:49:40.407 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:49:40.412 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/giannisportrett.png - 200 121723 image/png 10.4261ms
+2024-12-02 08:49:40.414 +01:00 [INF] The file /images/1.jpg was not modified
+2024-12-02 08:49:40.414 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/1.jpg - 304 null image/jpeg 11.928ms
+2024-12-02 08:49:55.446 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Update/8 - null null
+2024-12-02 08:49:55.448 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-12-02 08:49:55.451 +01:00 [INF] Route matched with {action = "Update", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Update(Int32) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-12-02 08:49:55.474 +01:00 [INF] Executing ViewResult, running view Update.
+2024-12-02 08:49:55.515 +01:00 [INF] Executed ViewResult - view Update executed in 43.8259ms.
+2024-12-02 08:49:55.515 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Update (GalleryNote) in 63.8283ms
+2024-12-02 08:49:55.515 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-12-02 08:49:55.516 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Update/8 - 200 null text/html; charset=utf-8 70.0581ms
+2024-12-02 08:49:55.539 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:49:55.542 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 3.3826ms
+2024-12-02 08:49:55.542 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:50:00.879 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Image/Update/8 - application/x-www-form-urlencoded 375
+2024-12-02 08:50:00.885 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-12-02 08:50:00.896 +01:00 [INF] Route matched with {action = "Update", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(GalleryNote.Models.Image) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-12-02 08:50:00.959 +01:00 [INF] Executing RedirectResult, redirecting to /Image/Grid.
+2024-12-02 08:50:00.960 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Update (GalleryNote) in 63.5823ms
+2024-12-02 08:50:00.960 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-12-02 08:50:00.961 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Image/Update/8 - 302 0 null 81.3658ms
+2024-12-02 08:50:00.966 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Grid - null null
+2024-12-02 08:50:00.974 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-12-02 08:50:00.974 +01:00 [INF] Route matched with {action = "Grid", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Grid() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-12-02 08:50:00.976 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-12-02 08:50:00.978 +01:00 [INF] Executed ViewResult - view Grid executed in 2.2851ms.
+2024-12-02 08:50:00.979 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Grid (GalleryNote) in 4.5495ms
+2024-12-02 08:50:00.979 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-12-02 08:50:00.979 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Grid - 200 null text/html; charset=utf-8 13.3239ms
+2024-12-02 08:50:01.011 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:50:01.014 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/1.jpg - null null
+2024-12-02 08:50:01.014 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/giannisportrett.png - null null
+2024-12-02 08:50:01.015 +01:00 [INF] The file /images/giannisportrett.png was not modified
+2024-12-02 08:50:01.015 +01:00 [INF] The file /images/1.jpg was not modified
+2024-12-02 08:50:01.015 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/giannisportrett.png - 304 null image/png 0.6877ms
+2024-12-02 08:50:01.015 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/1.jpg - 304 null image/jpeg 1.1493ms
+2024-12-02 08:50:01.015 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 4.2565ms
+2024-12-02 08:50:01.016 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:50:08.981 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Delete/8 - null null
+2024-12-02 08:50:08.989 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Delete (GalleryNote)'
+2024-12-02 08:50:08.994 +01:00 [INF] Route matched with {action = "Delete", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(Int32) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-12-02 08:50:09.004 +01:00 [INF] Executing ViewResult, running view Delete.
+2024-12-02 08:50:09.022 +01:00 [INF] Executed ViewResult - view Delete executed in 20.3131ms.
+2024-12-02 08:50:09.023 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Delete (GalleryNote) in 27.8646ms
+2024-12-02 08:50:09.023 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Delete (GalleryNote)'
+2024-12-02 08:50:09.024 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Delete/8 - 200 null text/html; charset=utf-8 42.9838ms
+2024-12-02 08:50:09.059 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:50:09.061 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/giannisportrett.png - null null
+2024-12-02 08:50:09.062 +01:00 [INF] The file /images/giannisportrett.png was not modified
+2024-12-02 08:50:09.062 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/giannisportrett.png - 304 null image/png 1.5543ms
+2024-12-02 08:50:09.064 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 4.6558ms
+2024-12-02 08:50:09.065 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:50:10.929 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Image/DeleteConfirmed/8 - application/x-www-form-urlencoded 225
+2024-12-02 08:50:10.938 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.DeleteConfirmed (GalleryNote)'
+2024-12-02 08:50:10.943 +01:00 [INF] Route matched with {action = "DeleteConfirmed", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteConfirmed(Int32) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-12-02 08:50:11.013 +01:00 [INF] Executing RedirectResult, redirecting to /Image/Grid.
+2024-12-02 08:50:11.013 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.DeleteConfirmed (GalleryNote) in 70.3543ms
+2024-12-02 08:50:11.013 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.DeleteConfirmed (GalleryNote)'
+2024-12-02 08:50:11.014 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Image/DeleteConfirmed/8 - 302 0 null 84.9507ms
+2024-12-02 08:50:11.023 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Grid - null null
+2024-12-02 08:50:11.026 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-12-02 08:50:11.026 +01:00 [INF] Route matched with {action = "Grid", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Grid() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-12-02 08:50:11.027 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-12-02 08:50:11.029 +01:00 [INF] Executed ViewResult - view Grid executed in 1.6404ms.
+2024-12-02 08:50:11.029 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Grid (GalleryNote) in 3.0281ms
+2024-12-02 08:50:11.029 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-12-02 08:50:11.029 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Grid - 200 null text/html; charset=utf-8 6.1467ms
+2024-12-02 08:50:11.069 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:50:11.073 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 4.5686ms
+2024-12-02 08:50:11.073 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:50:11.078 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/1.jpg - null null
+2024-12-02 08:50:11.079 +01:00 [INF] The file /images/1.jpg was not modified
+2024-12-02 08:50:11.080 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/1.jpg - 304 null image/jpeg 1.0729ms
+2024-12-02 08:50:15.727 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Delete/7 - null null
+2024-12-02 08:50:15.733 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Delete (GalleryNote)'
+2024-12-02 08:50:15.733 +01:00 [INF] Route matched with {action = "Delete", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(Int32) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-12-02 08:50:15.735 +01:00 [INF] Executing ViewResult, running view Delete.
+2024-12-02 08:50:15.739 +01:00 [INF] Executed ViewResult - view Delete executed in 2.8571ms.
+2024-12-02 08:50:15.739 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Delete (GalleryNote) in 5.6925ms
+2024-12-02 08:50:15.739 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Delete (GalleryNote)'
+2024-12-02 08:50:15.739 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Delete/7 - 200 null text/html; charset=utf-8 12.5019ms
+2024-12-02 08:50:15.791 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:50:15.793 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/1.jpg - null null
+2024-12-02 08:50:15.793 +01:00 [INF] The file /images/1.jpg was not modified
+2024-12-02 08:50:15.794 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/1.jpg - 304 null image/jpeg 1.022ms
+2024-12-02 08:50:15.799 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 7.7526ms
+2024-12-02 08:50:15.800 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:50:17.539 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Image/DeleteConfirmed/7 - application/x-www-form-urlencoded 225
+2024-12-02 08:50:17.542 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.DeleteConfirmed (GalleryNote)'
+2024-12-02 08:50:17.543 +01:00 [INF] Route matched with {action = "DeleteConfirmed", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteConfirmed(Int32) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-12-02 08:50:17.574 +01:00 [INF] Executing RedirectResult, redirecting to /Image/Grid.
+2024-12-02 08:50:17.574 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.DeleteConfirmed (GalleryNote) in 31.5335ms
+2024-12-02 08:50:17.575 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.DeleteConfirmed (GalleryNote)'
+2024-12-02 08:50:17.576 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Image/DeleteConfirmed/7 - 302 0 null 36.7164ms
+2024-12-02 08:50:17.591 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Grid - null null
+2024-12-02 08:50:17.599 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-12-02 08:50:17.600 +01:00 [INF] Route matched with {action = "Grid", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Grid() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-12-02 08:50:17.604 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-12-02 08:50:17.607 +01:00 [INF] Executed ViewResult - view Grid executed in 2.261ms.
+2024-12-02 08:50:17.607 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Grid (GalleryNote) in 6.72ms
+2024-12-02 08:50:17.607 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-12-02 08:50:17.607 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Grid - 200 null text/html; charset=utf-8 16.5877ms
+2024-12-02 08:50:17.654 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:50:17.658 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 4.1875ms
+2024-12-02 08:50:17.659 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:50:24.023 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - null null
+2024-12-02 08:50:24.029 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-12-02 08:50:24.030 +01:00 [INF] Route matched with {action = "Grid", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-12-02 08:50:24.036 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-12-02 08:50:24.039 +01:00 [INF] Executed ViewResult - view Grid executed in 3.4007ms.
+2024-12-02 08:50:24.039 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Grid (GalleryNote) in 9.2943ms
+2024-12-02 08:50:24.039 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-12-02 08:50:24.039 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - 200 null text/html; charset=utf-8 16.6192ms
+2024-12-02 08:50:24.080 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:50:24.086 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 5.911ms
+2024-12-02 08:50:24.086 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:50:28.281 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Home/Upload?active=active - null null
+2024-12-02 08:50:28.284 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Upload (GalleryNote)'
+2024-12-02 08:50:28.284 +01:00 [INF] Route matched with {action = "Upload", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-12-02 08:50:28.285 +01:00 [INF] Executing ViewResult, running view Upload.
+2024-12-02 08:50:28.286 +01:00 [INF] Executed ViewResult - view Upload executed in 1.2838ms.
+2024-12-02 08:50:28.286 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Upload (GalleryNote) in 1.7522ms
+2024-12-02 08:50:28.286 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Upload (GalleryNote)'
+2024-12-02 08:50:28.287 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Home/Upload?active=active - 200 null text/html; charset=utf-8 5.6107ms
+2024-12-02 08:50:28.327 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:50:28.335 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 7.9949ms
+2024-12-02 08:50:28.335 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:50:29.930 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Create - null null
+2024-12-02 08:50:29.935 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Create (GalleryNote)'
+2024-12-02 08:50:29.942 +01:00 [INF] Route matched with {action = "Create", controller = "Note", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-12-02 08:50:29.946 +01:00 [INF] Executing ViewResult, running view Create.
+2024-12-02 08:50:29.979 +01:00 [INF] Executed ViewResult - view Create executed in 34.4621ms.
+2024-12-02 08:50:29.980 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Create (GalleryNote) in 37.8588ms
+2024-12-02 08:50:29.980 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Create (GalleryNote)'
+2024-12-02 08:50:29.980 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Create - 200 null text/html; charset=utf-8 50.2287ms
+2024-12-02 08:50:30.015 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:50:30.018 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 3.0775ms
+2024-12-02 08:50:30.019 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:50:34.239 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Note/Create - application/x-www-form-urlencoded 238
+2024-12-02 08:50:34.245 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Create (GalleryNote)'
+2024-12-02 08:50:34.260 +01:00 [INF] Route matched with {action = "Create", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(GalleryNote.Models.Note) on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-12-02 08:50:34.315 +01:00 [INF] Executing RedirectResult, redirecting to /Note/Grid.
+2024-12-02 08:50:34.316 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Create (GalleryNote) in 55.2823ms
+2024-12-02 08:50:34.316 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Create (GalleryNote)'
+2024-12-02 08:50:34.316 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Note/Create - 302 0 null 77.2035ms
+2024-12-02 08:50:34.322 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Grid - null null
+2024-12-02 08:50:34.329 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-12-02 08:50:34.330 +01:00 [INF] Route matched with {action = "Grid", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-12-02 08:50:34.332 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-12-02 08:50:34.336 +01:00 [INF] Executed ViewResult - view Grid executed in 3.9941ms.
+2024-12-02 08:50:34.336 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Grid (GalleryNote) in 6.032ms
+2024-12-02 08:50:34.336 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-12-02 08:50:34.337 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Grid - 200 null text/html; charset=utf-8 14.7281ms
+2024-12-02 08:50:34.378 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:50:34.381 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 3.1333ms
+2024-12-02 08:50:34.381 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:50:37.430 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Update/10 - null null
+2024-12-02 08:50:37.432 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Update (GalleryNote)'
+2024-12-02 08:50:37.439 +01:00 [INF] Route matched with {action = "Update", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32) on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-12-02 08:50:37.469 +01:00 [INF] Executing ViewResult, running view Update.
+2024-12-02 08:50:37.506 +01:00 [INF] Executed ViewResult - view Update executed in 39.7312ms.
+2024-12-02 08:50:37.508 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Update (GalleryNote) in 67.1006ms
+2024-12-02 08:50:37.509 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Update (GalleryNote)'
+2024-12-02 08:50:37.510 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Update/10 - 200 null text/html; charset=utf-8 80.1454ms
+2024-12-02 08:50:37.543 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:50:37.547 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 4.148ms
+2024-12-02 08:50:37.548 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:50:41.147 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Note/Update/10 - application/x-www-form-urlencoded 280
+2024-12-02 08:50:41.149 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Update (GalleryNote)'
+2024-12-02 08:50:41.162 +01:00 [INF] Route matched with {action = "Update", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(GalleryNote.Models.Note) on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-12-02 08:50:41.182 +01:00 [INF] Executing RedirectResult, redirecting to /Note/Grid.
+2024-12-02 08:50:41.182 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Update (GalleryNote) in 20.3199ms
+2024-12-02 08:50:41.183 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Update (GalleryNote)'
+2024-12-02 08:50:41.183 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Note/Update/10 - 302 0 null 36.255ms
+2024-12-02 08:50:41.198 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Grid - null null
+2024-12-02 08:50:41.202 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-12-02 08:50:41.202 +01:00 [INF] Route matched with {action = "Grid", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-12-02 08:50:41.205 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-12-02 08:50:41.208 +01:00 [INF] Executed ViewResult - view Grid executed in 3.3537ms.
+2024-12-02 08:50:41.208 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Grid (GalleryNote) in 6.4312ms
+2024-12-02 08:50:41.209 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-12-02 08:50:41.210 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Grid - 200 null text/html; charset=utf-8 11.7772ms
+2024-12-02 08:50:41.248 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:50:41.251 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 2.6531ms
+2024-12-02 08:50:41.251 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:50:44.859 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Home/Upload?active=active - null null
+2024-12-02 08:50:44.862 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Upload (GalleryNote)'
+2024-12-02 08:50:44.862 +01:00 [INF] Route matched with {action = "Upload", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-12-02 08:50:44.862 +01:00 [INF] Executing ViewResult, running view Upload.
+2024-12-02 08:50:44.863 +01:00 [INF] Executed ViewResult - view Upload executed in 1.2017ms.
+2024-12-02 08:50:44.864 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Upload (GalleryNote) in 1.6622ms
+2024-12-02 08:50:44.864 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Upload (GalleryNote)'
+2024-12-02 08:50:44.864 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Home/Upload?active=active - 200 null text/html; charset=utf-8 4.908ms
+2024-12-02 08:50:44.897 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:50:44.901 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 4.0139ms
+2024-12-02 08:50:44.903 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:50:45.847 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Create - null null
+2024-12-02 08:50:45.850 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Create (GalleryNote)'
+2024-12-02 08:50:45.850 +01:00 [INF] Route matched with {action = "Create", controller = "Note", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-12-02 08:50:45.851 +01:00 [INF] Executing ViewResult, running view Create.
+2024-12-02 08:50:45.858 +01:00 [INF] Executed ViewResult - view Create executed in 6.9388ms.
+2024-12-02 08:50:45.858 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Create (GalleryNote) in 7.2741ms
+2024-12-02 08:50:45.858 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Create (GalleryNote)'
+2024-12-02 08:50:45.858 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Create - 200 null text/html; charset=utf-8 11.2365ms
+2024-12-02 08:50:45.898 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:50:45.901 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 2.9559ms
+2024-12-02 08:50:45.901 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:50:49.653 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Note/Create - application/x-www-form-urlencoded 238
+2024-12-02 08:50:49.657 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Create (GalleryNote)'
+2024-12-02 08:50:49.657 +01:00 [INF] Route matched with {action = "Create", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(GalleryNote.Models.Note) on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-12-02 08:50:49.667 +01:00 [INF] Executing RedirectResult, redirecting to /Note/Grid.
+2024-12-02 08:50:49.667 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Create (GalleryNote) in 9.9445ms
+2024-12-02 08:50:49.667 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Create (GalleryNote)'
+2024-12-02 08:50:49.668 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Note/Create - 302 0 null 14.674ms
+2024-12-02 08:50:49.684 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Grid - null null
+2024-12-02 08:50:49.695 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-12-02 08:50:49.695 +01:00 [INF] Route matched with {action = "Grid", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-12-02 08:50:49.698 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-12-02 08:50:49.700 +01:00 [INF] Executed ViewResult - view Grid executed in 1.6886ms.
+2024-12-02 08:50:49.700 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Grid (GalleryNote) in 4.767ms
+2024-12-02 08:50:49.701 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-12-02 08:50:49.707 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Grid - 200 null text/html; charset=utf-8 22.6249ms
+2024-12-02 08:50:49.747 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:50:49.750 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 2.5387ms
+2024-12-02 08:50:49.757 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:50:53.328 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Delete/11 - null null
+2024-12-02 08:50:53.330 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Delete (GalleryNote)'
+2024-12-02 08:50:53.340 +01:00 [INF] Route matched with {action = "Delete", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-12-02 08:50:53.348 +01:00 [INF] Executing ViewResult, running view Delete.
+2024-12-02 08:50:53.366 +01:00 [INF] Executed ViewResult - view Delete executed in 21.2425ms.
+2024-12-02 08:50:53.368 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Delete (GalleryNote) in 27.1595ms
+2024-12-02 08:50:53.371 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Delete (GalleryNote)'
+2024-12-02 08:50:53.372 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Delete/11 - 200 null text/html; charset=utf-8 44.2493ms
+2024-12-02 08:50:53.405 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:50:53.408 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 2.9412ms
+2024-12-02 08:50:53.408 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:50:54.808 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Note/DeleteConfirmed/11 - application/x-www-form-urlencoded 225
+2024-12-02 08:50:54.810 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.DeleteConfirmed (GalleryNote)'
+2024-12-02 08:50:54.818 +01:00 [INF] Route matched with {action = "DeleteConfirmed", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteConfirmed(Int32) on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-12-02 08:50:54.836 +01:00 [INF] Executing RedirectResult, redirecting to /Note/Grid.
+2024-12-02 08:50:54.837 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.DeleteConfirmed (GalleryNote) in 18.7615ms
+2024-12-02 08:50:54.837 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.DeleteConfirmed (GalleryNote)'
+2024-12-02 08:50:54.837 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Note/DeleteConfirmed/11 - 302 0 null 29.0666ms
+2024-12-02 08:50:54.848 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Grid - null null
+2024-12-02 08:50:54.853 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-12-02 08:50:54.853 +01:00 [INF] Route matched with {action = "Grid", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-12-02 08:50:54.857 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-12-02 08:50:54.862 +01:00 [INF] Executed ViewResult - view Grid executed in 5.0152ms.
+2024-12-02 08:50:54.862 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Grid (GalleryNote) in 8.7567ms
+2024-12-02 08:50:54.862 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-12-02 08:50:54.863 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Grid - 200 null text/html; charset=utf-8 15.714ms
+2024-12-02 08:50:54.908 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:50:54.911 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 3.1831ms
+2024-12-02 08:50:54.912 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:50:57.364 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Delete/10 - null null
+2024-12-02 08:50:57.367 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Delete (GalleryNote)'
+2024-12-02 08:50:57.367 +01:00 [INF] Route matched with {action = "Delete", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-12-02 08:50:57.369 +01:00 [INF] Executing ViewResult, running view Delete.
+2024-12-02 08:50:57.371 +01:00 [INF] Executed ViewResult - view Delete executed in 1.5393ms.
+2024-12-02 08:50:57.371 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Delete (GalleryNote) in 3.4208ms
+2024-12-02 08:50:57.371 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Delete (GalleryNote)'
+2024-12-02 08:50:57.372 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Delete/10 - 200 null text/html; charset=utf-8 7.2169ms
+2024-12-02 08:50:57.408 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:50:57.413 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 5.7889ms
+2024-12-02 08:50:57.414 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:50:58.745 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Note/DeleteConfirmed/10 - application/x-www-form-urlencoded 225
+2024-12-02 08:50:58.747 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.DeleteConfirmed (GalleryNote)'
+2024-12-02 08:50:58.748 +01:00 [INF] Route matched with {action = "DeleteConfirmed", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteConfirmed(Int32) on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-12-02 08:50:58.757 +01:00 [INF] Executing RedirectResult, redirecting to /Note/Grid.
+2024-12-02 08:50:58.757 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.DeleteConfirmed (GalleryNote) in 7.4989ms
+2024-12-02 08:50:58.757 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.DeleteConfirmed (GalleryNote)'
+2024-12-02 08:50:58.757 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Note/DeleteConfirmed/10 - 302 0 null 12.9727ms
+2024-12-02 08:50:58.765 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Grid - null null
+2024-12-02 08:50:58.773 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-12-02 08:50:58.773 +01:00 [INF] Route matched with {action = "Grid", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-12-02 08:50:58.779 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-12-02 08:50:58.783 +01:00 [INF] Executed ViewResult - view Grid executed in 4.4471ms.
+2024-12-02 08:50:58.784 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Grid (GalleryNote) in 9.9453ms
+2024-12-02 08:50:58.784 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-12-02 08:50:58.789 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Grid - 200 null text/html; charset=utf-8 23.6121ms
+2024-12-02 08:50:58.830 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:50:58.840 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 10.0395ms
+2024-12-02 08:50:58.841 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:51:05.618 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/?active=active - null null
+2024-12-02 08:51:05.621 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-12-02 08:51:05.621 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-12-02 08:51:05.622 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-02 08:51:05.624 +01:00 [INF] Executed ViewResult - view Index executed in 2.0113ms.
+2024-12-02 08:51:05.624 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 2.3341ms
+2024-12-02 08:51:05.624 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-12-02 08:51:05.624 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/?active=active - 200 null text/html; charset=utf-8 6.1665ms
+2024-12-02 08:51:05.661 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:51:05.669 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 8.2264ms
+2024-12-02 08:51:05.669 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:51:13.912 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Identity/Account/Logout?returnUrl=%2F - application/x-www-form-urlencoded 225
+2024-12-02 08:51:13.915 +01:00 [INF] Executing endpoint '/Account/Logout'
+2024-12-02 08:51:13.925 +01:00 [INF] Route matched with {page = "/Account/Logout", area = "Identity", action = "", controller = ""}. Executing page /Account/Logout
+2024-12-02 08:51:13.928 +01:00 [INF] Executing handler method GalleryNote.Areas.Identity.Pages.Account.LogoutModel.OnPost - ModelState is "Valid"
+2024-12-02 08:51:13.934 +01:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-12-02 08:51:13.935 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-12-02 08:51:13.935 +01:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-12-02 08:51:13.936 +01:00 [INF] User logged out.
+2024-12-02 08:51:13.937 +01:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-12-02 08:51:13.937 +01:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-12-02 08:51:13.938 +01:00 [INF] Executed page /Account/Logout in 12.5962ms
+2024-12-02 08:51:13.938 +01:00 [INF] Executed endpoint '/Account/Logout'
+2024-12-02 08:51:13.938 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Identity/Account/Logout?returnUrl=%2F - 302 0 null 26.5817ms
+2024-12-02 08:51:13.948 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-12-02 08:51:13.948 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-12-02 08:51:13.949 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-12-02 08:51:13.949 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-02 08:51:13.957 +01:00 [INF] Executed ViewResult - view Index executed in 7.6402ms.
+2024-12-02 08:51:13.957 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 8.2517ms
+2024-12-02 08:51:13.957 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-12-02 08:51:13.957 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 9.5644ms
+2024-12-02 08:51:14.006 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:51:14.007 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 0.8727ms
+2024-12-02 08:51:14.007 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:51:20.978 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Identity/Account/Login - null null
+2024-12-02 08:51:20.979 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-02 08:51:20.983 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-02 08:51:20.986 +01:00 [INF] Executing handler method GalleryNote.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-12-02 08:51:20.987 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-12-02 08:51:20.987 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-12-02 08:51:20.987 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-02 08:51:20.987 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-02 08:51:20.995 +01:00 [INF] Executed page /Account/Login in 11.7591ms
+2024-12-02 08:51:20.996 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-02 08:51:20.996 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Identity/Account/Login - 200 null text/html; charset=utf-8 17.431ms
+2024-12-02 08:51:21.055 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:51:21.056 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 0.7522ms
+2024-12-02 08:51:21.056 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:51:21.060 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-12-02 08:51:21.061 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-12-02 08:51:21.062 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 404 0 null 1.2883ms
+2024-12-02 08:51:21.063 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-12-02 08:51:21.064 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - 404 0 null 4.045ms
+2024-12-02 08:51:21.065 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js, Response status code: 404
+2024-12-02 08:51:23.267 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/?active=active - null null
+2024-12-02 08:51:23.268 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-12-02 08:51:23.268 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-12-02 08:51:23.268 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-02 08:51:23.271 +01:00 [INF] Executed ViewResult - view Index executed in 3.3188ms.
+2024-12-02 08:51:23.271 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 3.6201ms
+2024-12-02 08:51:23.271 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-12-02 08:51:23.272 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/?active=active - 200 null text/html; charset=utf-8 4.3316ms
+2024-12-02 08:51:23.325 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-12-02 08:51:23.326 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 404 0 null 1.0583ms
+2024-12-02 08:51:23.326 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/css/custom.css, Response status code: 404
+2024-12-02 08:51:44.711 +01:00 [INF] Application is shutting down...

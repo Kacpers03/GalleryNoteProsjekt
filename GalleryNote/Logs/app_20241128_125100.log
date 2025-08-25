@@ -1,0 +1,160 @@
+2024-11-28 12:51:03.399 +01:00 [INF] User profile is available. Using 'C:\Users\birko\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-28 12:51:03.916 +01:00 [INF] Now listening on: http://localhost:5272
+2024-11-28 12:51:03.928 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-28 12:51:03.930 +01:00 [INF] Hosting environment: Development
+2024-11-28 12:51:03.930 +01:00 [INF] Content root path: C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\GalleryNote project\GalleryNote – Kopi
+2024-11-28 12:51:04.586 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-11-28 12:51:04.708 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 12:51:04.730 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-28 12:51:04.746 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-28 12:51:04.984 +01:00 [INF] Executed ViewResult - view Index executed in 234.1477ms.
+2024-11-28 12:51:04.992 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 258.1643ms
+2024-11-28 12:51:04.993 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 12:51:05.026 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 440.653ms
+2024-11-28 12:51:05.028 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example2.jpg - null null
+2024-11-28 12:51:05.029 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example1.jpg - null null
+2024-11-28 12:51:05.037 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example2.jpg - 404 0 null 8.0335ms
+2024-11-28 12:51:05.037 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example1.jpg - 404 0 null 7.5642ms
+2024-11-28 12:51:05.044 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/images/example1.jpg, Response status code: 404
+2024-11-28 12:51:05.044 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/images/example2.jpg, Response status code: 404
+2024-11-28 12:51:05.061 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-28 12:51:05.061 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example3.jpg - null null
+2024-11-28 12:51:05.064 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 3.5693ms
+2024-11-28 12:51:05.068 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example3.jpg - 404 0 null 7.4015ms
+2024-11-28 12:51:05.069 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/images/example3.jpg, Response status code: 404
+2024-11-28 12:53:11.534 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-11-28 12:53:11.537 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 12:53:11.538 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-28 12:53:11.542 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-28 12:53:11.716 +01:00 [INF] Executed ViewResult - view Index executed in 175.8357ms.
+2024-11-28 12:53:11.716 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 177.3167ms
+2024-11-28 12:53:11.716 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 12:53:11.717 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 183.6453ms
+2024-11-28 12:53:11.756 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example1.jpg - null null
+2024-11-28 12:53:11.766 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example2.jpg - null null
+2024-11-28 12:53:11.782 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-28 12:53:11.782 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example3.jpg - null null
+2024-11-28 12:53:11.783 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.7767ms
+2024-11-28 12:53:11.917 +01:00 [INF] Sending file. Request path: '/images/example1.jpg'. Physical path: 'C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\GalleryNote project\GalleryNote – Kopi\wwwroot\images\example1.jpg'
+2024-11-28 12:53:11.917 +01:00 [INF] Sending file. Request path: '/images/example2.jpg'. Physical path: 'C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\GalleryNote project\GalleryNote – Kopi\wwwroot\images\example2.jpg'
+2024-11-28 12:53:11.920 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example2.jpg - 200 2724773 image/jpeg 153.6984ms
+2024-11-28 12:53:11.920 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example1.jpg - 200 2534115 image/jpeg 163.5425ms
+2024-11-28 12:53:12.572 +01:00 [INF] Sending file. Request path: '/images/example3.jpg'. Physical path: 'C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\GalleryNote project\GalleryNote – Kopi\wwwroot\images\example3.jpg'
+2024-11-28 12:53:12.573 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example3.jpg - 200 7032243 image/jpeg 790.5424ms
+2024-11-28 12:56:39.340 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-11-28 12:56:39.342 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 12:56:39.352 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-28 12:56:39.366 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-28 12:56:39.431 +01:00 [INF] Executed ViewResult - view Index executed in 78.9193ms.
+2024-11-28 12:56:39.432 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 79.3585ms
+2024-11-28 12:56:39.432 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 12:56:39.432 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 91.9578ms
+2024-11-28 12:56:39.469 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example1.jpg - null null
+2024-11-28 12:56:39.470 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example2.jpg - null null
+2024-11-28 12:56:39.472 +01:00 [INF] The file /images/example2.jpg was not modified
+2024-11-28 12:56:39.472 +01:00 [INF] The file /images/example1.jpg was not modified
+2024-11-28 12:56:39.472 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example1.jpg - 304 null image/jpeg 2.8518ms
+2024-11-28 12:56:39.472 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example2.jpg - 304 null image/jpeg 2.3196ms
+2024-11-28 12:56:39.485 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-28 12:56:39.485 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example3.jpg - null null
+2024-11-28 12:56:39.486 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.5576ms
+2024-11-28 12:56:39.488 +01:00 [INF] The file /images/example3.jpg was not modified
+2024-11-28 12:56:39.488 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example3.jpg - 304 null image/jpeg 3.5537ms
+2024-11-28 12:57:15.321 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-11-28 12:57:15.322 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 12:57:15.326 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-28 12:57:15.328 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-28 12:57:15.354 +01:00 [INF] Executed ViewResult - view Index executed in 28.0344ms.
+2024-11-28 12:57:15.354 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 28.335ms
+2024-11-28 12:57:15.354 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 12:57:15.354 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 33.7219ms
+2024-11-28 12:57:15.374 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example2.jpg - null null
+2024-11-28 12:57:15.374 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example1.jpg - null null
+2024-11-28 12:57:15.375 +01:00 [INF] The file /images/example1.jpg was not modified
+2024-11-28 12:57:15.375 +01:00 [INF] The file /images/example2.jpg was not modified
+2024-11-28 12:57:15.376 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example2.jpg - 304 null image/jpeg 2.2239ms
+2024-11-28 12:57:15.376 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example1.jpg - 304 null image/jpeg 2.2239ms
+2024-11-28 12:57:15.399 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example3.jpg - null null
+2024-11-28 12:57:15.404 +01:00 [INF] The file /images/example3.jpg was not modified
+2024-11-28 12:57:15.404 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example3.jpg - 304 null image/jpeg 4.8427ms
+2024-11-28 12:57:15.407 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-28 12:57:15.407 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.6751ms
+2024-11-28 13:03:26.568 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-11-28 13:03:26.570 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 13:03:26.575 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-28 13:03:26.589 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-28 13:03:26.632 +01:00 [INF] Executed ViewResult - view Index executed in 56.4545ms.
+2024-11-28 13:03:26.632 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 57.142ms
+2024-11-28 13:03:26.632 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 13:03:26.633 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 65.2096ms
+2024-11-28 13:03:26.666 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example1.jpg - null null
+2024-11-28 13:03:26.666 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example2.jpg - null null
+2024-11-28 13:03:26.667 +01:00 [INF] The file /images/example2.jpg was not modified
+2024-11-28 13:03:26.667 +01:00 [INF] The file /images/example1.jpg was not modified
+2024-11-28 13:03:26.667 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example2.jpg - 304 null image/jpeg 1.0836ms
+2024-11-28 13:03:26.667 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example1.jpg - 304 null image/jpeg 1.1199ms
+2024-11-28 13:03:26.704 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example3.jpg - null null
+2024-11-28 13:03:26.704 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-28 13:03:26.704 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.6597ms
+2024-11-28 13:03:26.706 +01:00 [INF] The file /images/example3.jpg was not modified
+2024-11-28 13:03:26.707 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example3.jpg - 304 null image/jpeg 3.1709ms
+2024-11-28 13:03:51.307 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-11-28 13:03:51.307 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 13:03:51.307 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-28 13:03:51.308 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-28 13:03:51.315 +01:00 [INF] Executed ViewResult - view Index executed in 7.6562ms.
+2024-11-28 13:03:51.316 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 8.1136ms
+2024-11-28 13:03:51.316 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 13:03:51.317 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 9.5397ms
+2024-11-28 13:03:51.342 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-28 13:03:51.342 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.8585ms
+2024-11-28 13:04:13.634 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-11-28 13:04:13.635 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 13:04:13.636 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-28 13:04:13.642 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-28 13:04:13.669 +01:00 [INF] Executed ViewResult - view Index executed in 33.0148ms.
+2024-11-28 13:04:13.669 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 33.3546ms
+2024-11-28 13:04:13.670 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 13:04:13.670 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 35.7062ms
+2024-11-28 13:04:13.691 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-28 13:04:13.691 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.2566ms
+2024-11-28 13:07:34.086 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-11-28 13:07:34.087 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 13:07:34.088 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-28 13:07:34.095 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-28 13:07:34.114 +01:00 [INF] Executed ViewResult - view Index executed in 25.7019ms.
+2024-11-28 13:07:34.115 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 26.0153ms
+2024-11-28 13:07:34.115 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 13:07:34.115 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 29.8312ms
+2024-11-28 13:07:34.128 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example1.jpg - null null
+2024-11-28 13:07:34.128 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example2.jpg - null null
+2024-11-28 13:07:34.129 +01:00 [INF] The file /images/example1.jpg was not modified
+2024-11-28 13:07:34.129 +01:00 [INF] The file /images/example2.jpg was not modified
+2024-11-28 13:07:34.130 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example2.jpg - 304 null image/jpeg 1.433ms
+2024-11-28 13:07:34.130 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example1.jpg - 304 null image/jpeg 1.3819ms
+2024-11-28 13:07:34.150 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example3.jpg - null null
+2024-11-28 13:07:34.150 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-28 13:07:34.151 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.3353ms
+2024-11-28 13:07:34.153 +01:00 [INF] The file /images/example3.jpg was not modified
+2024-11-28 13:07:34.153 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example3.jpg - 304 null image/jpeg 2.7114ms
+2024-11-28 13:07:49.410 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-11-28 13:07:49.410 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 13:07:49.411 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-28 13:07:49.416 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-28 13:07:49.442 +01:00 [INF] Executed ViewResult - view Index executed in 30.4423ms.
+2024-11-28 13:07:49.442 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 30.7569ms
+2024-11-28 13:07:49.442 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 13:07:49.443 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 32.9674ms
+2024-11-28 13:07:49.473 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-28 13:07:49.473 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.4422ms
+2024-11-28 13:08:14.772 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-11-28 13:08:14.773 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 13:08:14.774 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-28 13:08:14.779 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-28 13:08:14.805 +01:00 [INF] Executed ViewResult - view Index executed in 30.5446ms.
+2024-11-28 13:08:14.806 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 30.9651ms
+2024-11-28 13:08:14.806 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 13:08:14.806 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 34.1219ms
+2024-11-28 13:08:14.830 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-28 13:08:14.830 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.3728ms
+2024-11-28 13:11:35.654 +01:00 [INF] Application is shutting down...

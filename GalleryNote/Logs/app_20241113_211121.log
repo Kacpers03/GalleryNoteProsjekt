@@ -1,0 +1,336 @@
+2024-11-13 21:11:24.107 +01:00 [INF] User profile is available. Using 'C:\Users\birko\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-13 21:11:24.494 +01:00 [INF] Now listening on: http://localhost:5272
+2024-11-13 21:11:24.501 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-13 21:11:24.502 +01:00 [INF] Hosting environment: Development
+2024-11-13 21:11:24.503 +01:00 [INF] Content root path: C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\GalleryNote project\GalleryNote – Kopi
+2024-11-13 21:11:25.093 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-11-13 21:11:25.231 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-13 21:11:25.260 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-13 21:11:25.281 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-13 21:11:25.459 +01:00 [INF] Executed ViewResult - view Index executed in 178.0909ms.
+2024-11-13 21:11:25.467 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 204.6143ms
+2024-11-13 21:11:25.467 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-13 21:11:25.484 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 397.9088ms
+2024-11-13 21:11:25.537 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:11:25.543 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 6.1362ms
+2024-11-13 21:11:27.473 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - null null
+2024-11-13 21:11:27.479 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-13 21:11:27.499 +01:00 [INF] Route matched with {action = "Grid", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-13 21:11:27.816 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-13 21:11:27.875 +01:00 [INF] Executed ViewResult - view Grid executed in 60.7841ms.
+2024-11-13 21:11:27.875 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Grid (GalleryNote) in 376.2414ms
+2024-11-13 21:11:27.875 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-13 21:11:27.885 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - 200 null text/html; charset=utf-8 412.1756ms
+2024-11-13 21:11:27.932 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:11:27.934 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 1.2139ms
+2024-11-13 21:13:57.920 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - null null
+2024-11-13 21:13:57.932 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-13 21:13:57.942 +01:00 [INF] Route matched with {action = "Grid", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-13 21:13:58.052 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-13 21:13:58.098 +01:00 [INF] Executed ViewResult - view Grid executed in 47.8405ms.
+2024-11-13 21:13:58.098 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Grid (GalleryNote) in 155.3311ms
+2024-11-13 21:13:58.098 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-13 21:13:58.099 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - 200 null text/html; charset=utf-8 179.0633ms
+2024-11-13 21:13:58.132 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:13:58.132 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.3725ms
+2024-11-13 21:14:11.042 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Delete/1 - null null
+2024-11-13 21:14:11.062 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-11-13 21:14:11.069 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-11-13 21:14:11.069 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Delete/1 - 302 0 null 27.2062ms
+2024-11-13 21:14:11.077 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Identity/Account/Login?ReturnUrl=%2FImage%2FDelete%2F1 - null null
+2024-11-13 21:14:11.078 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-13 21:14:11.125 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-13 21:14:11.176 +01:00 [INF] Executing handler method GalleryNote.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-11-13 21:14:11.189 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-11-13 21:14:11.191 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-11-13 21:14:11.196 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-11-13 21:14:11.197 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-13 21:14:11.347 +01:00 [INF] Executed page /Account/Login in 221.1719ms
+2024-11-13 21:14:11.347 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-13 21:14:11.347 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Identity/Account/Login?ReturnUrl=%2FImage%2FDelete%2F1 - 200 null text/html; charset=utf-8 269.9757ms
+2024-11-13 21:14:11.377 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-11-13 21:14:11.381 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:14:11.381 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-11-13 21:14:11.382 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.7544ms
+2024-11-13 21:14:11.384 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 404 0 null 2.8171ms
+2024-11-13 21:14:11.384 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - 404 0 null 7.3922ms
+2024-11-13 21:14:11.385 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js, Response status code: 404
+2024-11-13 21:14:11.385 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-13 21:14:13.349 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:14:13.350 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 1.3079ms
+2024-11-13 21:14:28.972 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Details/2 - null null
+2024-11-13 21:14:28.973 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Details (GalleryNote)'
+2024-11-13 21:14:28.989 +01:00 [INF] Route matched with {action = "Details", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(Int32) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-13 21:14:29.137 +01:00 [INF] Executing ViewResult, running view Details.
+2024-11-13 21:14:29.147 +01:00 [INF] Executed ViewResult - view Details executed in 12.357ms.
+2024-11-13 21:14:29.147 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Details (GalleryNote) in 158.021ms
+2024-11-13 21:14:29.147 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Details (GalleryNote)'
+2024-11-13 21:14:29.165 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Details/2 - 200 null text/html; charset=utf-8 193.1315ms
+2024-11-13 21:14:29.197 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:14:29.197 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.4743ms
+2024-11-13 21:14:31.099 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:14:31.099 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.5626ms
+2024-11-13 21:16:36.307 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - null null
+2024-11-13 21:16:36.308 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-13 21:16:36.319 +01:00 [INF] Route matched with {action = "Grid", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-13 21:16:36.334 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-13 21:16:36.381 +01:00 [INF] Executed ViewResult - view Grid executed in 53.0591ms.
+2024-11-13 21:16:36.381 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Grid (GalleryNote) in 61.6194ms
+2024-11-13 21:16:36.381 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-13 21:16:36.382 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - 200 null text/html; charset=utf-8 75.3971ms
+2024-11-13 21:16:36.418 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:16:36.419 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.4422ms
+2024-11-13 21:16:44.726 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Create - null null
+2024-11-13 21:16:44.742 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-11-13 21:16:44.744 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-11-13 21:16:44.745 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Create - 302 0 null 19.0234ms
+2024-11-13 21:16:44.758 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Identity/Account/Login?ReturnUrl=%2FImage%2FCreate - null null
+2024-11-13 21:16:44.759 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-13 21:16:44.770 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-13 21:16:44.775 +01:00 [INF] Executing handler method GalleryNote.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-11-13 21:16:44.776 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-11-13 21:16:44.776 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-11-13 21:16:44.776 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-11-13 21:16:44.776 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-13 21:16:44.792 +01:00 [INF] Executed page /Account/Login in 22.5166ms
+2024-11-13 21:16:44.793 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-13 21:16:44.793 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Identity/Account/Login?ReturnUrl=%2FImage%2FCreate - 200 null text/html; charset=utf-8 34.904ms
+2024-11-13 21:16:44.828 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-11-13 21:16:44.830 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - 404 0 null 1.1378ms
+2024-11-13 21:16:44.830 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js, Response status code: 404
+2024-11-13 21:16:44.831 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:16:44.831 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.3425ms
+2024-11-13 21:16:44.836 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-11-13 21:16:44.837 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 404 0 null 1.1524ms
+2024-11-13 21:16:44.837 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-13 21:16:46.572 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:16:46.572 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.9474ms
+2024-11-13 21:17:20.840 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/?active=active - null null
+2024-11-13 21:17:20.841 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-13 21:17:20.843 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-13 21:17:20.844 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-13 21:17:20.850 +01:00 [INF] Executed ViewResult - view Index executed in 7.2555ms.
+2024-11-13 21:17:20.851 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 7.9173ms
+2024-11-13 21:17:20.851 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-13 21:17:20.851 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/?active=active - 200 null text/html; charset=utf-8 10.9987ms
+2024-11-13 21:17:20.892 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:17:20.893 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.5119ms
+2024-11-13 21:23:22.592 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - null null
+2024-11-13 21:23:22.594 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-13 21:23:22.594 +01:00 [INF] Route matched with {action = "Grid", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-13 21:23:22.608 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-13 21:23:22.613 +01:00 [INF] Executed ViewResult - view Grid executed in 5.5194ms.
+2024-11-13 21:23:22.613 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Grid (GalleryNote) in 19.2016ms
+2024-11-13 21:23:22.613 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-13 21:23:22.614 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - 200 null text/html; charset=utf-8 22.191ms
+2024-11-13 21:23:22.689 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:23:22.690 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.371ms
+2024-11-13 21:23:38.342 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Create - null null
+2024-11-13 21:23:38.359 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-11-13 21:23:38.360 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-11-13 21:23:38.360 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Create - 302 0 null 18.9334ms
+2024-11-13 21:23:38.367 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Identity/Account/Login?ReturnUrl=%2FImage%2FCreate - null null
+2024-11-13 21:23:38.380 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-13 21:23:38.381 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-13 21:23:38.383 +01:00 [INF] Executing handler method GalleryNote.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-11-13 21:23:38.384 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-11-13 21:23:38.384 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-11-13 21:23:38.384 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-11-13 21:23:38.384 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-13 21:23:38.388 +01:00 [INF] Executed page /Account/Login in 6.4835ms
+2024-11-13 21:23:38.388 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-13 21:23:38.388 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Identity/Account/Login?ReturnUrl=%2FImage%2FCreate - 200 null text/html; charset=utf-8 20.6447ms
+2024-11-13 21:23:38.422 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-11-13 21:23:38.423 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - 404 0 null 1.3361ms
+2024-11-13 21:23:38.424 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js, Response status code: 404
+2024-11-13 21:23:38.429 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:23:38.430 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-11-13 21:23:38.430 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.385ms
+2024-11-13 21:23:38.431 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 404 0 null 0.9202ms
+2024-11-13 21:23:38.431 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-13 21:23:46.692 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Identity/Account/Login?ReturnUrl=%2FImage%2FCreate - application/x-www-form-urlencoded 266
+2024-11-13 21:23:46.692 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-13 21:23:46.693 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-13 21:23:46.744 +01:00 [INF] Executing handler method GalleryNote.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-11-13 21:23:46.875 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-13 21:23:46.883 +01:00 [INF] Executed page /Account/Login in 190.31ms
+2024-11-13 21:23:46.883 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-13 21:23:46.884 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Identity/Account/Login?ReturnUrl=%2FImage%2FCreate - 200 null text/html; charset=utf-8 191.9979ms
+2024-11-13 21:23:46.915 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-11-13 21:23:46.917 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:23:46.917 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.299ms
+2024-11-13 21:23:46.919 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - 404 0 null 3.3362ms
+2024-11-13 21:23:46.919 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js, Response status code: 404
+2024-11-13 21:23:46.919 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-11-13 21:23:46.920 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 404 0 null 0.9102ms
+2024-11-13 21:23:46.920 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-13 21:24:00.862 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Identity/Account/Register - null null
+2024-11-13 21:24:00.863 +01:00 [INF] Executing endpoint '/Account/Register'
+2024-11-13 21:24:00.878 +01:00 [INF] Route matched with {page = "/Account/Register", area = "Identity", action = "", controller = ""}. Executing page /Account/Register
+2024-11-13 21:24:00.881 +01:00 [INF] Executing handler method GalleryNote.Areas.Identity.Pages.Account.RegisterModel.OnGetAsync - ModelState is "Valid"
+2024-11-13 21:24:00.886 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-11-13 21:24:00.886 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-11-13 21:24:00.886 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-13 21:24:00.991 +01:00 [INF] Executed page /Account/Register in 112.4121ms
+2024-11-13 21:24:00.991 +01:00 [INF] Executed endpoint '/Account/Register'
+2024-11-13 21:24:00.991 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Identity/Account/Register - 200 null text/html; charset=utf-8 129.3212ms
+2024-11-13 21:24:01.022 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-11-13 21:24:01.025 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:24:01.025 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-11-13 21:24:01.025 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.3386ms
+2024-11-13 21:24:01.026 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - 404 0 null 3.3935ms
+2024-11-13 21:24:01.026 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js, Response status code: 404
+2024-11-13 21:24:01.026 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 404 0 null 0.8784ms
+2024-11-13 21:24:01.026 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-13 21:24:16.999 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Identity/Account/Register - null null
+2024-11-13 21:24:16.999 +01:00 [INF] Executing endpoint '/Account/Register'
+2024-11-13 21:24:16.999 +01:00 [INF] Route matched with {page = "/Account/Register", area = "Identity", action = "", controller = ""}. Executing page /Account/Register
+2024-11-13 21:24:17.001 +01:00 [INF] Executing handler method GalleryNote.Areas.Identity.Pages.Account.RegisterModel.OnGetAsync - ModelState is "Valid"
+2024-11-13 21:24:17.001 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-11-13 21:24:17.001 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-11-13 21:24:17.001 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-13 21:24:17.004 +01:00 [INF] Executed page /Account/Register in 4.9802ms
+2024-11-13 21:24:17.005 +01:00 [INF] Executed endpoint '/Account/Register'
+2024-11-13 21:24:17.005 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Identity/Account/Register - 200 null text/html; charset=utf-8 6.3356ms
+2024-11-13 21:24:17.051 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-11-13 21:24:17.053 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - 404 0 null 1.8619ms
+2024-11-13 21:24:17.054 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js, Response status code: 404
+2024-11-13 21:24:17.056 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:24:17.058 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 1.3496ms
+2024-11-13 21:24:17.058 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-11-13 21:24:17.061 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 404 0 null 2.8366ms
+2024-11-13 21:24:17.061 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-13 21:24:19.452 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Identity/Account/Login - null null
+2024-11-13 21:24:19.452 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-13 21:24:19.452 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-13 21:24:19.454 +01:00 [INF] Executing handler method GalleryNote.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-11-13 21:24:19.454 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-11-13 21:24:19.454 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-11-13 21:24:19.454 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-11-13 21:24:19.454 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-13 21:24:19.457 +01:00 [INF] Executed page /Account/Login in 4.1298ms
+2024-11-13 21:24:19.457 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-13 21:24:19.458 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Identity/Account/Login - 200 null text/html; charset=utf-8 5.9639ms
+2024-11-13 21:24:19.498 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-11-13 21:24:19.499 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - 404 0 null 0.9881ms
+2024-11-13 21:24:19.499 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js, Response status code: 404
+2024-11-13 21:24:19.500 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:24:19.500 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.3032ms
+2024-11-13 21:24:19.502 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-11-13 21:24:19.505 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 404 0 null 2.7405ms
+2024-11-13 21:24:19.505 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-13 21:24:36.652 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Identity/Account/Login - application/x-www-form-urlencoded 256
+2024-11-13 21:24:36.655 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-13 21:24:36.655 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-13 21:24:36.660 +01:00 [INF] Executing handler method GalleryNote.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-11-13 21:24:36.678 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-13 21:24:36.683 +01:00 [INF] Executed page /Account/Login in 27.7578ms
+2024-11-13 21:24:36.684 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-13 21:24:36.684 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Identity/Account/Login - 200 null text/html; charset=utf-8 31.7822ms
+2024-11-13 21:24:36.722 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-11-13 21:24:36.723 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - 404 0 null 0.9073ms
+2024-11-13 21:24:36.724 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js, Response status code: 404
+2024-11-13 21:24:36.731 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:24:36.732 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-11-13 21:24:36.732 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.4558ms
+2024-11-13 21:24:36.733 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 404 0 null 1.8159ms
+2024-11-13 21:24:36.734 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-13 21:27:32.407 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Identity/Account/Login - application/x-www-form-urlencoded 256
+2024-11-13 21:27:32.408 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-13 21:27:32.427 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-13 21:27:32.430 +01:00 [INF] Executing handler method GalleryNote.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-11-13 21:27:32.442 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-13 21:27:32.459 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Identity/Account/Login - application/x-www-form-urlencoded 256
+2024-11-13 21:27:32.477 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-13 21:27:32.477 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-13 21:27:32.478 +01:00 [INF] Executing handler method GalleryNote.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-11-13 21:27:32.480 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-13 21:27:32.545 +01:00 [INF] Executed page /Account/Login in 117.4807ms
+2024-11-13 21:27:32.545 +01:00 [INF] Executed page /Account/Login in 68.0844ms
+2024-11-13 21:27:32.545 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-13 21:27:32.545 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-13 21:27:32.545 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Identity/Account/Login - 200 null text/html; charset=utf-8 138.6382ms
+2024-11-13 21:27:32.545 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Identity/Account/Login - 200 null text/html; charset=utf-8 86.1349ms
+2024-11-13 21:27:32.570 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-11-13 21:27:32.571 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - 404 0 null 0.9915ms
+2024-11-13 21:27:32.571 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js, Response status code: 404
+2024-11-13 21:27:32.572 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-11-13 21:27:32.573 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:27:32.573 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.3207ms
+2024-11-13 21:27:32.573 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 404 0 null 0.8105ms
+2024-11-13 21:27:32.573 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-13 21:27:40.082 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Identity/Account/Login - application/x-www-form-urlencoded 256
+2024-11-13 21:27:40.083 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-13 21:27:40.083 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-13 21:27:40.085 +01:00 [INF] Executing handler method GalleryNote.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-11-13 21:27:40.087 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-13 21:27:40.093 +01:00 [INF] Executed page /Account/Login in 9.8257ms
+2024-11-13 21:27:40.093 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-13 21:27:40.094 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Identity/Account/Login - 200 null text/html; charset=utf-8 11.6022ms
+2024-11-13 21:27:40.142 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-11-13 21:27:40.143 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - 404 0 null 0.9078ms
+2024-11-13 21:27:40.143 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js, Response status code: 404
+2024-11-13 21:27:40.143 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-11-13 21:27:40.146 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 404 0 null 0.8625ms
+2024-11-13 21:27:40.151 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-13 21:27:40.156 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:27:40.156 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.4512ms
+2024-11-13 21:27:45.058 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Identity/Account/Login - application/x-www-form-urlencoded 258
+2024-11-13 21:27:45.059 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-13 21:27:45.060 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-13 21:27:45.062 +01:00 [INF] Executing handler method GalleryNote.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-11-13 21:27:45.066 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-13 21:27:45.070 +01:00 [INF] Executed page /Account/Login in 9.852ms
+2024-11-13 21:27:45.070 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-13 21:27:45.070 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Identity/Account/Login - 200 null text/html; charset=utf-8 11.9199ms
+2024-11-13 21:27:45.101 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-11-13 21:27:45.103 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - 404 0 null 1.6646ms
+2024-11-13 21:27:45.103 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js, Response status code: 404
+2024-11-13 21:27:45.103 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:27:45.104 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-11-13 21:27:45.106 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 2.0471ms
+2024-11-13 21:27:45.106 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 404 0 null 2.178ms
+2024-11-13 21:27:45.106 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-13 21:28:03.217 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - null null
+2024-11-13 21:28:03.219 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-13 21:28:03.235 +01:00 [INF] Route matched with {action = "Grid", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-13 21:28:03.246 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-13 21:28:03.258 +01:00 [INF] Executed ViewResult - view Grid executed in 12.8723ms.
+2024-11-13 21:28:03.258 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Grid (GalleryNote) in 22.5679ms
+2024-11-13 21:28:03.258 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-13 21:28:03.260 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - 200 null text/html; charset=utf-8 42.416ms
+2024-11-13 21:28:03.325 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:28:03.325 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.3619ms
+2024-11-13 21:28:04.849 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Identity/Account/Login - null null
+2024-11-13 21:28:04.850 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-13 21:28:04.851 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-13 21:28:04.855 +01:00 [INF] Executing handler method GalleryNote.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-11-13 21:28:04.856 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-11-13 21:28:04.857 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-11-13 21:28:04.857 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-11-13 21:28:04.857 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-13 21:28:04.861 +01:00 [INF] Executed page /Account/Login in 10.2832ms
+2024-11-13 21:28:04.861 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-13 21:28:04.862 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Identity/Account/Login - 200 null text/html; charset=utf-8 12.1931ms
+2024-11-13 21:28:04.908 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-11-13 21:28:04.909 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-11-13 21:28:04.909 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - 404 0 null 1.0716ms
+2024-11-13 21:28:04.909 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js, Response status code: 404
+2024-11-13 21:28:04.911 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 404 0 null 2.2194ms
+2024-11-13 21:28:04.911 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-13 21:28:04.913 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:28:04.913 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.3515ms
+2024-11-13 21:28:06.753 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - null null
+2024-11-13 21:28:06.757 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-13 21:28:06.758 +01:00 [INF] Route matched with {action = "Grid", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-13 21:28:06.761 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-13 21:28:06.762 +01:00 [INF] Executed ViewResult - view Grid executed in 1.6991ms.
+2024-11-13 21:28:06.763 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Grid (GalleryNote) in 4.7221ms
+2024-11-13 21:28:06.763 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-13 21:28:06.763 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - 200 null text/html; charset=utf-8 10.08ms
+2024-11-13 21:28:06.800 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-13 21:28:06.805 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 1.6911ms
+2024-11-13 21:28:11.164 +01:00 [INF] Application is shutting down...

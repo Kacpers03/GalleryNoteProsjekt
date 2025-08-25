@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GalleryNote.props" />
+</Project>

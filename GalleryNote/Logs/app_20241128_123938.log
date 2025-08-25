@@ -1,0 +1,75 @@
+2024-11-28 12:39:45.839 +01:00 [INF] User profile is available. Using 'C:\Users\birko\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-28 12:39:46.489 +01:00 [INF] Now listening on: http://localhost:5272
+2024-11-28 12:39:46.502 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-28 12:39:46.504 +01:00 [INF] Hosting environment: Development
+2024-11-28 12:39:46.504 +01:00 [INF] Content root path: C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\GalleryNote project\GalleryNote – Kopi
+2024-11-28 12:41:56.984 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-11-28 12:41:57.068 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 12:41:57.087 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-28 12:41:57.106 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-28 12:41:57.319 +01:00 [INF] Executed ViewResult - view Index executed in 216.2537ms.
+2024-11-28 12:41:57.322 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 234.4505ms
+2024-11-28 12:41:57.322 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 12:41:57.354 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 377.5216ms
+2024-11-28 12:41:57.379 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/css/custom.css - null null
+2024-11-28 12:41:57.393 +01:00 [INF] The file /css/custom.css was not modified
+2024-11-28 12:41:57.396 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/css/custom.css - 304 null text/css 16.5437ms
+2024-11-28 12:41:57.463 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/background.jpg - null null
+2024-11-28 12:41:57.465 +01:00 [INF] The file /images/background.jpg was not modified
+2024-11-28 12:41:57.465 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/background.jpg - 304 null image/jpeg 2.0545ms
+2024-11-28 12:42:00.129 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - null null
+2024-11-28 12:42:00.133 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-28 12:42:00.136 +01:00 [INF] Route matched with {action = "Grid", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Grid() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-28 12:42:00.666 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-28 12:42:00.703 +01:00 [INF] Executed ViewResult - view Grid executed in 39.0441ms.
+2024-11-28 12:42:00.703 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Grid (GalleryNote) in 567.4971ms
+2024-11-28 12:42:00.704 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-28 12:42:00.712 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - 200 null text/html; charset=utf-8 583.8406ms
+2024-11-28 12:42:00.760 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/blomst.jpg - null null
+2024-11-28 12:42:00.769 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/blad.jpg - null null
+2024-11-28 12:42:00.774 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/skog.jpg - null null
+2024-11-28 12:42:00.921 +01:00 [INF] Sending file. Request path: '/images/blomst.jpg'. Physical path: 'C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\GalleryNote project\GalleryNote – Kopi\wwwroot\images\blomst.jpg'
+2024-11-28 12:42:00.925 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/blomst.jpg - 200 1244472 image/jpeg 163.7148ms
+2024-11-28 12:42:00.977 +01:00 [INF] Sending file. Request path: '/images/skog.jpg'. Physical path: 'C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\GalleryNote project\GalleryNote – Kopi\wwwroot\images\skog.jpg'
+2024-11-28 12:42:00.978 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/skog.jpg - 200 3487662 image/jpeg 203.8927ms
+2024-11-28 12:42:00.995 +01:00 [INF] Sending file. Request path: '/images/blad.jpg'. Physical path: 'C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\GalleryNote project\GalleryNote – Kopi\wwwroot\images\blad.jpg'
+2024-11-28 12:42:00.996 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/blad.jpg - 200 3504672 image/jpeg 226.9651ms
+2024-11-28 12:43:11.288 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - null null
+2024-11-28 12:43:11.294 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-11-28 12:43:11.308 +01:00 [INF] Route matched with {action = "Grid", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-11-28 12:43:11.389 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-28 12:43:11.411 +01:00 [INF] Executed ViewResult - view Grid executed in 23.7168ms.
+2024-11-28 12:43:11.411 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Grid (GalleryNote) in 102.8042ms
+2024-11-28 12:43:11.412 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-11-28 12:43:11.413 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - 200 null text/html; charset=utf-8 125.5838ms
+2024-11-28 12:44:04.488 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Home/Upload?active=active - null null
+2024-11-28 12:44:04.502 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-11-28 12:44:04.517 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-11-28 12:44:04.518 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Home/Upload?active=active - 302 0 null 29.8182ms
+2024-11-28 12:44:04.526 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Identity/Account/Login?ReturnUrl=%2FHome%2FUpload%3Factive%3Dactive - null null
+2024-11-28 12:44:04.527 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-28 12:44:04.571 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-28 12:44:04.611 +01:00 [INF] Executing handler method GalleryNote.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-11-28 12:44:04.627 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-11-28 12:44:04.633 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-11-28 12:44:04.641 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-11-28 12:44:04.641 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-28 12:44:04.759 +01:00 [INF] Executed page /Account/Login in 187.1142ms
+2024-11-28 12:44:04.759 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-28 12:44:04.759 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Identity/Account/Login?ReturnUrl=%2FHome%2FUpload%3Factive%3Dactive - 200 null text/html; charset=utf-8 233.5399ms
+2024-11-28 12:44:04.792 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-11-28 12:44:04.794 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js - 404 0 null 1.709ms
+2024-11-28 12:44:04.796 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-11-28 12:44:04.797 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation/dist/jquery.validate.min.js, Response status code: 404
+2024-11-28 12:44:04.799 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 404 0 null 2.6022ms
+2024-11-28 12:44:04.799 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-28 12:44:12.536 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/?active=active - null null
+2024-11-28 12:44:12.537 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 12:44:12.537 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-28 12:44:12.537 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-28 12:44:12.542 +01:00 [INF] Executed ViewResult - view Index executed in 4.3708ms.
+2024-11-28 12:44:12.542 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 4.8543ms
+2024-11-28 12:44:12.542 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 12:44:12.542 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/?active=active - 200 null text/html; charset=utf-8 6.2522ms
+2024-11-28 12:44:19.680 +01:00 [INF] Application is shutting down...

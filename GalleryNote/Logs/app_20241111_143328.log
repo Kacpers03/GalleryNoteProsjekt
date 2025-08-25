@@ -1,0 +1,46 @@
+2024-11-11 14:33:31.695 +01:00 [INF] User profile is available. Using 'C:\Users\birko\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-11 14:33:32.044 +01:00 [INF] Now listening on: http://localhost:5272
+2024-11-11 14:33:32.053 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-11 14:33:32.055 +01:00 [INF] Hosting environment: Development
+2024-11-11 14:33:32.056 +01:00 [INF] Content root path: C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\GalleryNote project\GalleryNote – Kopi
+2024-11-11 14:33:34.704 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-11-11 14:33:34.797 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-11 14:33:34.820 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-11 14:33:34.832 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-11 14:33:34.978 +01:00 [INF] Executed ViewResult - view Index executed in 148.6081ms.
+2024-11-11 14:33:34.984 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 163.0276ms
+2024-11-11 14:33:34.985 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-11 14:33:34.995 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 300.6011ms
+2024-11-11 14:33:36.479 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Table?active=active - null null
+2024-11-11 14:33:36.490 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Table (GalleryNote)'
+2024-11-11 14:33:36.508 +01:00 [INF] Route matched with {action = "Table", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-11 14:33:36.818 +01:00 [INF] Executing ViewResult, running view Table.
+2024-11-11 14:33:36.853 +01:00 [INF] Executed ViewResult - view Table executed in 37.8396ms.
+2024-11-11 14:33:36.854 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Table (GalleryNote) in 345.0893ms
+2024-11-11 14:33:36.854 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Table (GalleryNote)'
+2024-11-11 14:33:36.859 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Table?active=active - 200 null text/html; charset=utf-8 380.1564ms
+2024-11-11 14:33:37.623 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/?active=active - null null
+2024-11-11 14:33:37.629 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-11 14:33:37.629 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-11 14:33:37.631 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-11 14:33:37.653 +01:00 [INF] Executed ViewResult - view Index executed in 23.2458ms.
+2024-11-11 14:33:37.654 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 24.0909ms
+2024-11-11 14:33:37.654 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-11 14:33:37.654 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/?active=active - 200 null text/html; charset=utf-8 30.6913ms
+2024-11-11 14:33:38.875 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/?active=active - null null
+2024-11-11 14:33:38.876 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-11 14:33:38.876 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-11 14:33:38.877 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-11 14:33:38.881 +01:00 [INF] Executed ViewResult - view Index executed in 4.5788ms.
+2024-11-11 14:33:38.882 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 5.1061ms
+2024-11-11 14:33:38.882 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-11 14:33:38.882 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/?active=active - 200 null text/html; charset=utf-8 7.0224ms
+2024-11-11 14:33:40.082 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Table?active=active - null null
+2024-11-11 14:33:40.086 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Table (GalleryNote)'
+2024-11-11 14:33:40.086 +01:00 [INF] Route matched with {action = "Table", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-11 14:33:40.222 +01:00 [INF] Executing ViewResult, running view Table.
+2024-11-11 14:33:40.226 +01:00 [INF] Executed ViewResult - view Table executed in 4.0788ms.
+2024-11-11 14:33:40.226 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Table (GalleryNote) in 140.1905ms
+2024-11-11 14:33:40.226 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Table (GalleryNote)'
+2024-11-11 14:33:40.227 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Table?active=active - 200 null text/html; charset=utf-8 144.8486ms
+2024-11-11 14:34:23.567 +01:00 [INF] Application is shutting down...

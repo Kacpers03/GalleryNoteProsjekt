@@ -1,0 +1,23 @@
+@model Image
+
+<div class="container mt-5">
+    <h2>Create New Image</h2>
+
+    <form asp-action="Create" enctype="multipart/form-data">
+        <div asp-validation-summary="All" class="text-danger"></div>
+
+        <div class="form-group">
+            <label asp-for="Bio"></label><span class="text-danger">*</span>
+            <input asp-for="Bio" class="form-control" />
+            <span asp-validation-for="Bio" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="ImageFile">Choose Image File</label><span class="text-danger">*</span>
+            <input type="file" id="ImageFile" name="ImageFile" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-primary mt-3">Create</button>
+        <a asp-controller="Home" asp-action="Upload" class="btn btn-secondary mt-3">Back to Upload</a>
+    </form>
+</div>

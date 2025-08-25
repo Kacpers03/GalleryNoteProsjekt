@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Upload";
+}
+
+<div class="d-flex flex-column align-items-center justify-content-start" style="height: 90vh; margin-top: 50px;">
+
+    <!--Centered heading-->
+    <h2 class="mb-5 text-center">Upload Content</h2>
+
+    <!--Large buttons with icons-->
+    <div class="d-flex justify-content-center gap-4">
+        <a asp-controller="Image" asp-action="Create" class="btn btn-secondary btn-lg d-flex flex-column align-items-center justify-content-center" style="width: 200px; height: 200px; font-size: 1.5rem;">
+            <i class="bi bi-image mb-2" style="font-size: 3rem;"></i>
+            Upload Image
+        </a>
+        <a asp-controller="Note" asp-action="Create" class="btn btn-primary btn-lg d-flex flex-column align-items-center justify-content-center" style="width: 200px; height: 200px; font-size: 1.5rem;">
+            <i class="bi bi-journal mb-2" style="font-size: 3rem;"></i>
+            Upload Note
+        </a>
+    </div>
+    
+</div>

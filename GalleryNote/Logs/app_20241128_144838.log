@@ -1,0 +1,35 @@
+2024-11-28 14:48:43.707 +01:00 [INF] User profile is available. Using 'C:\Users\birko\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-28 14:48:44.551 +01:00 [INF] Now listening on: http://localhost:5272
+2024-11-28 14:48:44.574 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-28 14:48:44.576 +01:00 [INF] Hosting environment: Development
+2024-11-28 14:48:44.578 +01:00 [INF] Content root path: C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\GalleryNote project\GalleryNote – Kopi
+2024-11-28 14:48:48.012 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-11-28 14:48:48.353 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 14:48:48.412 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-28 14:48:48.476 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-28 14:48:48.757 +01:00 [INF] Executed ViewResult - view Index executed in 281.9839ms.
+2024-11-28 14:48:48.762 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 347.7167ms
+2024-11-28 14:48:48.763 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 14:48:48.834 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 829.9347ms
+2024-11-28 14:48:53.218 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Identity/Account/Logout?returnUrl=%2F - application/x-www-form-urlencoded 225
+2024-11-28 14:48:53.467 +01:00 [INF] Executing endpoint '/Account/Logout'
+2024-11-28 14:48:53.528 +01:00 [INF] Route matched with {page = "/Account/Logout", area = "Identity", action = "", controller = ""}. Executing page /Account/Logout
+2024-11-28 14:48:53.609 +01:00 [INF] Executing handler method GalleryNote.Areas.Identity.Pages.Account.LogoutModel.OnPost - ModelState is "Valid"
+2024-11-28 14:48:53.629 +01:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-11-28 14:48:53.634 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-11-28 14:48:53.635 +01:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-11-28 14:48:53.635 +01:00 [INF] User logged out.
+2024-11-28 14:48:53.637 +01:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-11-28 14:48:53.641 +01:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-11-28 14:48:53.642 +01:00 [INF] Executed page /Account/Logout in 112.7452ms
+2024-11-28 14:48:53.644 +01:00 [INF] Executed endpoint '/Account/Logout'
+2024-11-28 14:48:53.645 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Identity/Account/Logout?returnUrl=%2F - 302 0 null 426.935ms
+2024-11-28 14:48:53.650 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-11-28 14:48:53.653 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 14:48:53.654 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-28 14:48:53.656 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-28 14:48:53.694 +01:00 [INF] Executed ViewResult - view Index executed in 38.9777ms.
+2024-11-28 14:48:53.695 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 40.6919ms
+2024-11-28 14:48:53.696 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 14:48:53.697 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 46.6696ms
+2024-11-28 14:50:10.115 +01:00 [INF] Application is shutting down...

@@ -1,0 +1,158 @@
+2024-11-26 13:56:12.889 +01:00 [INF] User profile is available. Using 'C:\Users\birko\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-26 13:56:13.443 +01:00 [INF] Now listening on: http://localhost:5272
+2024-11-26 13:56:13.454 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-26 13:56:13.456 +01:00 [INF] Hosting environment: Development
+2024-11-26 13:56:13.456 +01:00 [INF] Content root path: C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\GalleryNote project\GalleryNote – Kopi
+2024-11-26 13:56:16.536 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-11-26 13:56:16.841 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-26 13:56:16.888 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-26 13:56:16.920 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-26 13:56:17.167 +01:00 [INF] Executed ViewResult - view Index executed in 255.96ms.
+2024-11-26 13:56:17.172 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 282.6879ms
+2024-11-26 13:56:17.173 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-26 13:56:17.192 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 668.4217ms
+2024-11-26 13:56:19.080 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - null null
+2024-11-26 13:56:19.223 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-11-26 13:56:19.235 +01:00 [INF] Route matched with {action = "Grid", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-11-26 13:56:19.451 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-26 13:56:19.469 +01:00 [INF] Executed ViewResult - view Grid executed in 19.2079ms.
+2024-11-26 13:56:19.469 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Grid (GalleryNote) in 233.5344ms
+2024-11-26 13:56:19.470 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-11-26 13:56:19.474 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - 200 null text/html; charset=utf-8 394.2299ms
+2024-11-26 13:56:25.274 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - null null
+2024-11-26 13:56:25.315 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-26 13:56:25.317 +01:00 [INF] Route matched with {action = "Grid", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Grid() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-26 13:56:25.339 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-26 13:56:25.376 +01:00 [INF] Executed ViewResult - view Grid executed in 38.3824ms.
+2024-11-26 13:56:25.376 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Grid (GalleryNote) in 59.1378ms
+2024-11-26 13:56:25.379 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-26 13:56:25.381 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - 200 null text/html; charset=utf-8 106.4085ms
+2024-11-26 13:56:26.920 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - null null
+2024-11-26 13:56:26.933 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-11-26 13:56:26.933 +01:00 [INF] Route matched with {action = "Grid", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-11-26 13:56:26.938 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-26 13:56:26.948 +01:00 [INF] Executed ViewResult - view Grid executed in 9.6601ms.
+2024-11-26 13:56:26.949 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Grid (GalleryNote) in 15.3913ms
+2024-11-26 13:56:26.950 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-11-26 13:56:26.950 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - 200 null text/html; charset=utf-8 30.7238ms
+2024-11-26 13:56:28.215 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - null null
+2024-11-26 13:56:28.222 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-26 13:56:28.222 +01:00 [INF] Route matched with {action = "Grid", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Grid() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-26 13:56:28.228 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-26 13:56:28.234 +01:00 [INF] Executed ViewResult - view Grid executed in 6.1194ms.
+2024-11-26 13:56:28.234 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Grid (GalleryNote) in 11.6602ms
+2024-11-26 13:56:28.234 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-26 13:56:28.234 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - 200 null text/html; charset=utf-8 19.2923ms
+2024-11-26 13:56:30.002 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - null null
+2024-11-26 13:56:30.005 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-11-26 13:56:30.006 +01:00 [INF] Route matched with {action = "Grid", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-11-26 13:56:30.015 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-26 13:56:30.021 +01:00 [INF] Executed ViewResult - view Grid executed in 7.7007ms.
+2024-11-26 13:56:30.021 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Grid (GalleryNote) in 15.4939ms
+2024-11-26 13:56:30.022 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-11-26 13:56:30.023 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - 200 null text/html; charset=utf-8 21.5124ms
+2024-11-26 13:56:31.130 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - null null
+2024-11-26 13:56:31.134 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-26 13:56:31.135 +01:00 [INF] Route matched with {action = "Grid", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Grid() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-26 13:56:31.137 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-26 13:56:31.144 +01:00 [INF] Executed ViewResult - view Grid executed in 6.9946ms.
+2024-11-26 13:56:31.144 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Grid (GalleryNote) in 9.4916ms
+2024-11-26 13:56:31.145 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-26 13:56:31.145 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - 200 null text/html; charset=utf-8 15.6909ms
+2024-11-26 13:56:32.284 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/?active=active - null null
+2024-11-26 13:56:32.288 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-26 13:56:32.288 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-26 13:56:32.289 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-26 13:56:32.294 +01:00 [INF] Executed ViewResult - view Index executed in 5.0352ms.
+2024-11-26 13:56:32.294 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 6.2522ms
+2024-11-26 13:56:32.295 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-26 13:56:32.296 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/?active=active - 200 null text/html; charset=utf-8 11.8272ms
+2024-11-26 13:56:33.351 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - null null
+2024-11-26 13:56:33.354 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-26 13:56:33.354 +01:00 [INF] Route matched with {action = "Grid", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Grid() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-26 13:56:33.356 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-26 13:56:33.361 +01:00 [INF] Executed ViewResult - view Grid executed in 4.675ms.
+2024-11-26 13:56:33.361 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Grid (GalleryNote) in 7.1875ms
+2024-11-26 13:56:33.361 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-26 13:56:33.362 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - 200 null text/html; charset=utf-8 10.711ms
+2024-11-26 13:56:34.157 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - null null
+2024-11-26 13:56:34.162 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-11-26 13:56:34.162 +01:00 [INF] Route matched with {action = "Grid", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-11-26 13:56:34.164 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-26 13:56:34.165 +01:00 [INF] Executed ViewResult - view Grid executed in 1.2379ms.
+2024-11-26 13:56:34.165 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Grid (GalleryNote) in 3.1008ms
+2024-11-26 13:56:34.165 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-11-26 13:56:34.166 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - 200 null text/html; charset=utf-8 8.219ms
+2024-11-26 13:56:35.039 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - null null
+2024-11-26 13:56:35.043 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-26 13:56:35.044 +01:00 [INF] Route matched with {action = "Grid", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Grid() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-26 13:56:35.048 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-26 13:56:35.051 +01:00 [INF] Executed ViewResult - view Grid executed in 2.636ms.
+2024-11-26 13:56:35.051 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Grid (GalleryNote) in 7.0323ms
+2024-11-26 13:56:35.051 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-26 13:56:35.052 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - 200 null text/html; charset=utf-8 12.5315ms
+2024-11-26 13:56:36.020 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/?active=active - null null
+2024-11-26 13:56:36.024 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-26 13:56:36.025 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-26 13:56:36.025 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-26 13:56:36.027 +01:00 [INF] Executed ViewResult - view Index executed in 2.3409ms.
+2024-11-26 13:56:36.028 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 3.0659ms
+2024-11-26 13:56:36.028 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-26 13:56:36.029 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/?active=active - 200 null text/html; charset=utf-8 8.7844ms
+2024-11-26 13:56:36.878 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - null null
+2024-11-26 13:56:36.880 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-26 13:56:36.880 +01:00 [INF] Route matched with {action = "Grid", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Grid() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-26 13:56:36.881 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-26 13:56:36.883 +01:00 [INF] Executed ViewResult - view Grid executed in 1.9117ms.
+2024-11-26 13:56:36.883 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Grid (GalleryNote) in 3.198ms
+2024-11-26 13:56:36.884 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-26 13:56:36.884 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - 200 null text/html; charset=utf-8 6.5115ms
+2024-11-26 13:56:37.653 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - null null
+2024-11-26 13:56:37.658 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-11-26 13:56:37.658 +01:00 [INF] Route matched with {action = "Grid", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-11-26 13:56:37.661 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-26 13:56:37.663 +01:00 [INF] Executed ViewResult - view Grid executed in 2.7637ms.
+2024-11-26 13:56:37.664 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Grid (GalleryNote) in 4.9582ms
+2024-11-26 13:56:37.664 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-11-26 13:56:37.664 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - 200 null text/html; charset=utf-8 11.2362ms
+2024-11-26 13:56:38.642 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-11-26 13:56:38.646 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-26 13:56:38.646 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-26 13:56:38.646 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-26 13:56:38.647 +01:00 [INF] Executed ViewResult - view Index executed in 1.3069ms.
+2024-11-26 13:56:38.648 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 1.6459ms
+2024-11-26 13:56:38.648 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-26 13:56:38.648 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 5.4185ms
+2024-11-26 13:56:40.058 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - null null
+2024-11-26 13:56:40.062 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-11-26 13:56:40.062 +01:00 [INF] Route matched with {action = "Grid", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-11-26 13:56:40.064 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-26 13:56:40.066 +01:00 [INF] Executed ViewResult - view Grid executed in 1.31ms.
+2024-11-26 13:56:40.066 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Grid (GalleryNote) in 3.4628ms
+2024-11-26 13:56:40.066 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-11-26 13:56:40.066 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - 200 null text/html; charset=utf-8 8.1445ms
+2024-11-26 13:56:43.647 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - null null
+2024-11-26 13:56:43.649 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-26 13:56:43.650 +01:00 [INF] Route matched with {action = "Grid", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Grid() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-26 13:56:43.651 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-26 13:56:43.655 +01:00 [INF] Executed ViewResult - view Grid executed in 3.0764ms.
+2024-11-26 13:56:43.655 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Grid (GalleryNote) in 5.1078ms
+2024-11-26 13:56:43.655 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-26 13:56:43.656 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - 200 null text/html; charset=utf-8 8.6084ms
+2024-11-26 13:56:48.467 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - null null
+2024-11-26 13:56:48.471 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-11-26 13:56:48.472 +01:00 [INF] Route matched with {action = "Grid", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-11-26 13:56:48.474 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-26 13:56:48.476 +01:00 [INF] Executed ViewResult - view Grid executed in 1.5896ms.
+2024-11-26 13:56:48.476 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Grid (GalleryNote) in 4.1498ms
+2024-11-26 13:56:48.476 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-11-26 13:56:48.476 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - 200 null text/html; charset=utf-8 9.9188ms
+2024-11-26 13:56:49.732 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/?active=active - null null
+2024-11-26 13:56:49.737 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-26 13:56:49.737 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-26 13:56:49.737 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-26 13:56:49.738 +01:00 [INF] Executed ViewResult - view Index executed in 1.1137ms.
+2024-11-26 13:56:49.739 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 1.3649ms
+2024-11-26 13:56:49.739 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-26 13:56:49.739 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/?active=active - 200 null text/html; charset=utf-8 6.7946ms
+2024-11-26 14:02:18.187 +01:00 [INF] Application is shutting down...

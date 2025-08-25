@@ -1,0 +1,22 @@
+2024-11-26 14:54:16.205 +01:00 [INF] User profile is available. Using 'C:\Users\birko\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-26 14:54:16.728 +01:00 [INF] Now listening on: http://localhost:5272
+2024-11-26 14:54:16.740 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-26 14:54:16.743 +01:00 [INF] Hosting environment: Development
+2024-11-26 14:54:16.743 +01:00 [INF] Content root path: C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\GalleryNote project\GalleryNote – Kopi
+2024-11-26 14:54:23.743 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-11-26 14:54:23.917 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-26 14:54:23.942 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-26 14:54:23.965 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-26 14:54:24.089 +01:00 [INF] Executed ViewResult - view Index executed in 130.0538ms.
+2024-11-26 14:54:24.094 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 149.593ms
+2024-11-26 14:54:24.095 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-26 14:54:24.110 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 373.5632ms
+2024-11-26 14:54:25.137 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - null null
+2024-11-26 14:54:25.250 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-11-26 14:54:25.255 +01:00 [INF] Route matched with {action = "Grid", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-11-26 14:54:25.410 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-26 14:54:25.436 +01:00 [INF] Executed ViewResult - view Grid executed in 26.9543ms.
+2024-11-26 14:54:25.437 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Grid (GalleryNote) in 181.4124ms
+2024-11-26 14:54:25.437 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-11-26 14:54:25.440 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - 200 null text/html; charset=utf-8 302.4671ms
+2024-11-26 14:55:57.652 +01:00 [INF] Application is shutting down...

@@ -1,0 +1,80 @@
+2024-11-27 14:28:09.770 +01:00 [INF] User profile is available. Using 'C:\Users\birko\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-27 14:28:10.126 +01:00 [INF] Now listening on: http://localhost:5272
+2024-11-27 14:28:10.139 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-27 14:28:10.143 +01:00 [INF] Hosting environment: Development
+2024-11-27 14:28:10.143 +01:00 [INF] Content root path: C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\GalleryNote project\GalleryNote – Kopi
+2024-11-27 14:28:13.909 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-11-27 14:28:14.055 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-27 14:28:14.079 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-27 14:28:14.101 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-27 14:28:14.227 +01:00 [INF] Executed ViewResult - view Index executed in 140.9253ms.
+2024-11-27 14:28:14.231 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 151.5305ms
+2024-11-27 14:28:14.232 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-27 14:28:14.245 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 349.4376ms
+2024-11-27 14:28:16.552 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - null null
+2024-11-27 14:28:16.665 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-27 14:28:16.668 +01:00 [INF] Route matched with {action = "Grid", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Grid() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-27 14:28:16.869 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-27 14:28:16.897 +01:00 [INF] Executed ViewResult - view Grid executed in 29.1232ms.
+2024-11-27 14:28:16.897 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Grid (GalleryNote) in 229.1494ms
+2024-11-27 14:28:16.898 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-27 14:28:16.911 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - 200 null text/html; charset=utf-8 359.0855ms
+2024-11-27 14:28:16.935 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/1.jpg - null null
+2024-11-27 14:28:16.945 +01:00 [INF] The file /images/1.jpg was not modified
+2024-11-27 14:28:16.946 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/1.jpg - 304 null image/jpeg 11.1189ms
+2024-11-27 14:28:18.558 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Create - null null
+2024-11-27 14:28:18.587 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Create (GalleryNote)'
+2024-11-27 14:28:18.592 +01:00 [INF] Route matched with {action = "Create", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-27 14:28:18.594 +01:00 [INF] Executing ViewResult, running view Create.
+2024-11-27 14:28:18.651 +01:00 [INF] Executed ViewResult - view Create executed in 58.8338ms.
+2024-11-27 14:28:18.652 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Create (GalleryNote) in 60.2671ms
+2024-11-27 14:28:18.653 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Create (GalleryNote)'
+2024-11-27 14:28:18.653 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Create - 200 null text/html; charset=utf-8 95.8827ms
+2024-11-27 14:28:25.739 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Image/Create - multipart/form-data; boundary=----WebKitFormBoundaryAOx0NlAC1vSEu07k 225901
+2024-11-27 14:28:25.754 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Create (GalleryNote)'
+2024-11-27 14:28:25.796 +01:00 [INF] Route matched with {action = "Create", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(GalleryNote.Models.Image, Microsoft.AspNetCore.Http.IFormFile) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-27 14:28:26.295 +01:00 [INF] Executing RedirectResult, redirecting to /Image/Grid.
+2024-11-27 14:28:26.297 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Create (GalleryNote) in 500.4357ms
+2024-11-27 14:28:26.297 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Create (GalleryNote)'
+2024-11-27 14:28:26.306 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Image/Create - 302 0 null 566.7179ms
+2024-11-27 14:28:26.306 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Grid - null null
+2024-11-27 14:28:26.309 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-27 14:28:26.309 +01:00 [INF] Route matched with {action = "Grid", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Grid() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-27 14:28:26.311 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-27 14:28:26.314 +01:00 [INF] Executed ViewResult - view Grid executed in 3.2285ms.
+2024-11-27 14:28:26.315 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Grid (GalleryNote) in 5.3819ms
+2024-11-27 14:28:26.315 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-27 14:28:26.315 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Grid - 200 null text/html; charset=utf-8 8.3828ms
+2024-11-27 14:28:28.597 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Update/7 - null null
+2024-11-27 14:28:28.605 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-27 14:28:28.607 +01:00 [INF] Route matched with {action = "Update", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Update(Int32) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-27 14:28:28.640 +01:00 [INF] Executing ViewResult, running view Update.
+2024-11-27 14:28:28.680 +01:00 [INF] Executed ViewResult - view Update executed in 41.5946ms.
+2024-11-27 14:28:28.680 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Update (GalleryNote) in 72.5841ms
+2024-11-27 14:28:28.680 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-27 14:28:28.681 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Update/7 - 200 null text/html; charset=utf-8 84.0379ms
+2024-11-27 14:28:33.827 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Image/Update/7 - application/x-www-form-urlencoded 317
+2024-11-27 14:28:33.831 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-27 14:28:33.839 +01:00 [INF] Route matched with {action = "Update", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(GalleryNote.Models.Image, Microsoft.AspNetCore.Http.IFormFile) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-27 14:28:33.861 +01:00 [INF] Executing ViewResult, running view Update.
+2024-11-27 14:28:33.863 +01:00 [INF] Executed ViewResult - view Update executed in 1.6731ms.
+2024-11-27 14:28:33.863 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Update (GalleryNote) in 23.1296ms
+2024-11-27 14:28:33.863 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-27 14:28:33.863 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Image/Update/7 - 200 null text/html; charset=utf-8 36.4273ms
+2024-11-27 14:28:34.839 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Image/Update/7 - application/x-www-form-urlencoded 317
+2024-11-27 14:28:34.842 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-27 14:28:34.842 +01:00 [INF] Route matched with {action = "Update", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(GalleryNote.Models.Image, Microsoft.AspNetCore.Http.IFormFile) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-27 14:28:34.849 +01:00 [INF] Executing ViewResult, running view Update.
+2024-11-27 14:28:34.854 +01:00 [INF] Executed ViewResult - view Update executed in 5.2528ms.
+2024-11-27 14:28:34.855 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Update (GalleryNote) in 12.6768ms
+2024-11-27 14:28:34.855 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-27 14:28:34.857 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Image/Update/7 - 200 null text/html; charset=utf-8 17.1182ms
+2024-11-27 14:28:35.505 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Image/Update/7 - application/x-www-form-urlencoded 317
+2024-11-27 14:28:35.507 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-27 14:28:35.508 +01:00 [INF] Route matched with {action = "Update", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(GalleryNote.Models.Image, Microsoft.AspNetCore.Http.IFormFile) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-27 14:28:35.509 +01:00 [INF] Executing ViewResult, running view Update.
+2024-11-27 14:28:35.511 +01:00 [INF] Executed ViewResult - view Update executed in 1.7273ms.
+2024-11-27 14:28:35.511 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Update (GalleryNote) in 3.4767ms
+2024-11-27 14:28:35.511 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-27 14:28:35.511 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Image/Update/7 - 200 null text/html; charset=utf-8 6.0069ms
+2024-11-27 14:28:40.311 +01:00 [INF] Application is shutting down...

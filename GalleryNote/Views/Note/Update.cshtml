@@ -1,0 +1,26 @@
+@model Note
+
+<h2>Update Note</h2>
+
+<form asp-action="Update" method="post">
+
+    <input type="hidden" asp-for="Id" />
+
+    <!--Content-->
+    <div class="form-group">
+        <label asp-for="Content"></label>
+        <textarea asp-for="Content" class="form-control"></textarea>
+        <span asp-validation-for="Content" class="text-danger"></span>
+    </div>
+
+    <!--UploadedBy, can't be edited-->
+    <div class="form-group">
+        <label asp-for="UploadedBy"></label>
+        <input asp-for="UploadedBy" class="form-control" readonly />
+    </div>
+
+    <div class="mt-4">
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+        <a asp-action="Grid" class="btn btn-secondary">Cancel</a>
+    </div>
+</form>

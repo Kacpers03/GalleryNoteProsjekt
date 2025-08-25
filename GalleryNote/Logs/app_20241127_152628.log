@@ -1,0 +1,41 @@
+2024-11-27 15:26:31.101 +01:00 [INF] User profile is available. Using 'C:\Users\birko\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-27 15:26:31.853 +01:00 [INF] Now listening on: http://localhost:5272
+2024-11-27 15:26:31.866 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-27 15:26:31.870 +01:00 [INF] Hosting environment: Development
+2024-11-27 15:26:31.870 +01:00 [INF] Content root path: C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\GalleryNote project\GalleryNote – Kopi
+2024-11-27 15:26:34.150 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-11-27 15:26:34.321 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-27 15:26:34.346 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-27 15:26:34.372 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-27 15:26:34.591 +01:00 [INF] Executed ViewResult - view Index executed in 228.0847ms.
+2024-11-27 15:26:34.597 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 249.0331ms
+2024-11-27 15:26:34.598 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-27 15:26:34.628 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 474.0524ms
+2024-11-27 15:26:36.082 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - null null
+2024-11-27 15:26:36.333 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-11-27 15:26:36.345 +01:00 [INF] Route matched with {action = "Grid", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-11-27 15:26:36.656 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-27 15:26:36.677 +01:00 [INF] Executed ViewResult - view Grid executed in 22.2402ms.
+2024-11-27 15:26:36.677 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Grid (GalleryNote) in 331.4083ms
+2024-11-27 15:26:36.677 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-11-27 15:26:36.692 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Grid?active=active - 200 null text/html; charset=utf-8 609.9277ms
+2024-11-27 15:26:39.238 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Home/Upload?active=active - null null
+2024-11-27 15:26:39.302 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Upload (GalleryNote)'
+2024-11-27 15:26:39.308 +01:00 [INF] Route matched with {action = "Upload", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-27 15:26:39.311 +01:00 [INF] Executing ViewResult, running view Upload.
+2024-11-27 15:26:39.326 +01:00 [INF] Executed ViewResult - view Upload executed in 17.49ms.
+2024-11-27 15:26:39.327 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Upload (GalleryNote) in 18.5283ms
+2024-11-27 15:26:39.327 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Upload (GalleryNote)'
+2024-11-27 15:26:39.327 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Home/Upload?active=active - 200 null text/html; charset=utf-8 89.056ms
+2024-11-27 15:26:40.598 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Create - null null
+2024-11-27 15:26:40.607 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Create (GalleryNote)'
+2024-11-27 15:26:40.611 +01:00 [INF] Route matched with {action = "Create", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-27 15:26:40.614 +01:00 [INF] Executing ViewResult, running view Create.
+2024-11-27 15:26:40.724 +01:00 [INF] Executed ViewResult - view Create executed in 111.528ms.
+2024-11-27 15:26:40.724 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Create (GalleryNote) in 112.9241ms
+2024-11-27 15:26:40.724 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Create (GalleryNote)'
+2024-11-27 15:26:40.725 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Create - 200 null text/html; charset=utf-8 127.0799ms
+2024-11-27 15:26:42.299 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Upload - null null
+2024-11-27 15:26:42.308 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Upload - 404 0 null 8.9958ms
+2024-11-27 15:26:42.311 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5272/Image/Upload, Response status code: 404
+2024-11-27 15:27:00.501 +01:00 [INF] Application is shutting down...

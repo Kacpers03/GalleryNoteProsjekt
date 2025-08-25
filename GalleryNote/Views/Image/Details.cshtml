@@ -1,0 +1,29 @@
+@model Image
+
+<h3 class="my-5">Image Details</h3>
+
+<div class="row gx-5">
+
+    <div class="col-md-5">
+        <img alt="Image" src="@Model.ImageUrl" class="img-fluid rounded">
+    </div>
+
+    
+    <div class="col-md-7">
+        
+        <div>
+            
+            <h5 class="mb-4">@Model.Bio</h5>
+
+            
+            <p class="text-muted"><strong>Uploaded By:</strong> @Model.UploadedBy</p>
+
+        </div>
+
+        
+        <div class="mt-4">
+            <a class="btn btn-primary" asp-action="Grid">Back to images</a>
+        </div>
+
+    </div>
+</div>

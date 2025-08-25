@@ -1,0 +1,139 @@
+2024-11-28 14:21:59.013 +01:00 [INF] User profile is available. Using 'C:\Users\birko\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-28 14:21:59.533 +01:00 [INF] Now listening on: http://localhost:5272
+2024-11-28 14:21:59.543 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-28 14:21:59.547 +01:00 [INF] Hosting environment: Development
+2024-11-28 14:21:59.548 +01:00 [INF] Content root path: C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\GalleryNote project\GalleryNote – Kopi
+2024-11-28 14:22:13.808 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-11-28 14:22:14.458 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 14:22:14.481 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-28 14:22:14.494 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-28 14:22:14.650 +01:00 [INF] Executed ViewResult - view Index executed in 158.3053ms.
+2024-11-28 14:22:14.655 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 172.1379ms
+2024-11-28 14:22:14.655 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-28 14:22:14.690 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 887.8623ms
+2024-11-28 14:22:14.691 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example2.jpg - null null
+2024-11-28 14:22:14.692 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example1.jpg - null null
+2024-11-28 14:22:14.706 +01:00 [INF] The file /images/example2.jpg was not modified
+2024-11-28 14:22:14.706 +01:00 [INF] The file /images/example1.jpg was not modified
+2024-11-28 14:22:14.707 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example1.jpg - 304 null image/jpeg 15.1923ms
+2024-11-28 14:22:14.707 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example2.jpg - 304 null image/jpeg 16.3814ms
+2024-11-28 14:22:14.745 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/example3.jpg - null null
+2024-11-28 14:22:14.748 +01:00 [INF] The file /images/example3.jpg was not modified
+2024-11-28 14:22:14.748 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/example3.jpg - 304 null image/jpeg 2.9769ms
+2024-11-28 14:22:19.231 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Home/Upload?active=active - null null
+2024-11-28 14:22:19.380 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Upload (GalleryNote)'
+2024-11-28 14:22:19.385 +01:00 [INF] Route matched with {action = "Upload", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-28 14:22:19.393 +01:00 [INF] Executing ViewResult, running view Upload.
+2024-11-28 14:22:19.424 +01:00 [INF] Executed ViewResult - view Upload executed in 34.0417ms.
+2024-11-28 14:22:19.424 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Upload (GalleryNote) in 38.7128ms
+2024-11-28 14:22:19.424 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Upload (GalleryNote)'
+2024-11-28 14:22:19.425 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Home/Upload?active=active - 200 null text/html; charset=utf-8 194.6302ms
+2024-11-28 14:22:20.405 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - null null
+2024-11-28 14:22:20.435 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-28 14:22:20.439 +01:00 [INF] Route matched with {action = "Grid", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Grid() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-28 14:22:20.519 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-28 14:22:20.541 +01:00 [INF] Executed ViewResult - view Grid executed in 24.8534ms.
+2024-11-28 14:22:20.542 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Grid (GalleryNote) in 102.6612ms
+2024-11-28 14:22:20.543 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Grid (GalleryNote)'
+2024-11-28 14:22:20.549 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Grid?active=active - 200 null text/html; charset=utf-8 144.0798ms
+2024-11-28 14:22:20.571 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/blomst.jpg - null null
+2024-11-28 14:22:20.571 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/blad.jpg - null null
+2024-11-28 14:22:20.572 +01:00 [INF] The file /images/blad.jpg was not modified
+2024-11-28 14:22:20.572 +01:00 [INF] The file /images/blomst.jpg was not modified
+2024-11-28 14:22:20.572 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/blad.jpg - 304 null image/jpeg 1.265ms
+2024-11-28 14:22:20.572 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/blomst.jpg - 304 null image/jpeg 1.8319ms
+2024-11-28 14:22:20.589 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/1.jpg - null null
+2024-11-28 14:22:20.589 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/skog.jpg - null null
+2024-11-28 14:22:20.589 +01:00 [INF] The file /images/skog.jpg was not modified
+2024-11-28 14:22:20.589 +01:00 [INF] The file /images/1.jpg was not modified
+2024-11-28 14:22:20.590 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/1.jpg - 304 null image/jpeg 1.2235ms
+2024-11-28 14:22:20.590 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/skog.jpg - 304 null image/jpeg 1.1958ms
+2024-11-28 14:22:24.147 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Update/4 - null null
+2024-11-28 14:22:24.160 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-28 14:22:24.181 +01:00 [INF] Route matched with {action = "Update", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Update(Int32) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-28 14:22:24.240 +01:00 [INF] Executing ViewResult, running view Update.
+2024-11-28 14:22:24.337 +01:00 [INF] Executed ViewResult - view Update executed in 97.9385ms.
+2024-11-28 14:22:24.338 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Update (GalleryNote) in 156.2873ms
+2024-11-28 14:22:24.338 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-28 14:22:24.338 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Update/4 - 200 null text/html; charset=utf-8 191.8101ms
+2024-11-28 14:22:30.867 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Image/Update/4 - application/x-www-form-urlencoded 366
+2024-11-28 14:22:30.877 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-28 14:22:30.901 +01:00 [INF] Route matched with {action = "Update", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(GalleryNote.Models.Image, Microsoft.AspNetCore.Http.IFormFile) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-28 14:22:30.998 +01:00 [ERR] ModelState error: The ImageFile field is required.
+2024-11-28 14:22:30.999 +01:00 [INF] Executing ViewResult, running view Update.
+2024-11-28 14:22:31.007 +01:00 [INF] Executed ViewResult - view Update executed in 7.7077ms.
+2024-11-28 14:22:31.007 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Update (GalleryNote) in 105.716ms
+2024-11-28 14:22:31.007 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-28 14:22:31.007 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Image/Update/4 - 200 null text/html; charset=utf-8 140.1247ms
+2024-11-28 14:22:32.289 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Image/Update/4 - application/x-www-form-urlencoded 366
+2024-11-28 14:22:32.293 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-28 14:22:32.293 +01:00 [INF] Route matched with {action = "Update", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(GalleryNote.Models.Image, Microsoft.AspNetCore.Http.IFormFile) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-28 14:22:32.309 +01:00 [ERR] ModelState error: The ImageFile field is required.
+2024-11-28 14:22:32.309 +01:00 [INF] Executing ViewResult, running view Update.
+2024-11-28 14:22:32.313 +01:00 [INF] Executed ViewResult - view Update executed in 3.3304ms.
+2024-11-28 14:22:32.315 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Update (GalleryNote) in 21.3544ms
+2024-11-28 14:22:32.315 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-28 14:22:32.316 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Image/Update/4 - 200 null text/html; charset=utf-8 26.2898ms
+2024-11-28 14:22:33.210 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Image/Update/4 - application/x-www-form-urlencoded 366
+2024-11-28 14:22:33.216 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-28 14:22:33.217 +01:00 [INF] Route matched with {action = "Update", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(GalleryNote.Models.Image, Microsoft.AspNetCore.Http.IFormFile) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-28 14:22:33.222 +01:00 [ERR] ModelState error: The ImageFile field is required.
+2024-11-28 14:22:33.222 +01:00 [INF] Executing ViewResult, running view Update.
+2024-11-28 14:22:33.228 +01:00 [INF] Executed ViewResult - view Update executed in 5.7027ms.
+2024-11-28 14:22:33.228 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Update (GalleryNote) in 11.0681ms
+2024-11-28 14:22:33.228 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-28 14:22:33.231 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Image/Update/4 - 200 null text/html; charset=utf-8 18.3352ms
+2024-11-28 14:22:33.672 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Image/Update/4 - application/x-www-form-urlencoded 366
+2024-11-28 14:22:33.676 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-28 14:22:33.676 +01:00 [INF] Route matched with {action = "Update", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(GalleryNote.Models.Image, Microsoft.AspNetCore.Http.IFormFile) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-28 14:22:33.682 +01:00 [ERR] ModelState error: The ImageFile field is required.
+2024-11-28 14:22:33.684 +01:00 [INF] Executing ViewResult, running view Update.
+2024-11-28 14:22:33.691 +01:00 [INF] Executed ViewResult - view Update executed in 7.7862ms.
+2024-11-28 14:22:33.692 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Update (GalleryNote) in 15.1536ms
+2024-11-28 14:22:33.692 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-28 14:22:33.693 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Image/Update/4 - 200 null text/html; charset=utf-8 20.5149ms
+2024-11-28 14:22:34.054 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Image/Update/4 - application/x-www-form-urlencoded 366
+2024-11-28 14:22:34.057 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-28 14:22:34.057 +01:00 [INF] Route matched with {action = "Update", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(GalleryNote.Models.Image, Microsoft.AspNetCore.Http.IFormFile) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-28 14:22:34.064 +01:00 [ERR] ModelState error: The ImageFile field is required.
+2024-11-28 14:22:34.064 +01:00 [INF] Executing ViewResult, running view Update.
+2024-11-28 14:22:34.070 +01:00 [INF] Executed ViewResult - view Update executed in 5.6482ms.
+2024-11-28 14:22:34.072 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Update (GalleryNote) in 13.121ms
+2024-11-28 14:22:34.073 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-28 14:22:34.075 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Image/Update/4 - 200 null text/html; charset=utf-8 20.3964ms
+2024-11-28 14:22:34.397 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Image/Update/4 - application/x-www-form-urlencoded 366
+2024-11-28 14:22:34.402 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-28 14:22:34.402 +01:00 [INF] Route matched with {action = "Update", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(GalleryNote.Models.Image, Microsoft.AspNetCore.Http.IFormFile) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-28 14:22:34.407 +01:00 [ERR] ModelState error: The ImageFile field is required.
+2024-11-28 14:22:34.408 +01:00 [INF] Executing ViewResult, running view Update.
+2024-11-28 14:22:34.411 +01:00 [INF] Executed ViewResult - view Update executed in 3.0128ms.
+2024-11-28 14:22:34.411 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Update (GalleryNote) in 9.0712ms
+2024-11-28 14:22:34.411 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-28 14:22:34.412 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Image/Update/4 - 200 null text/html; charset=utf-8 14.4354ms
+2024-11-28 14:22:34.590 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Image/Update/4 - application/x-www-form-urlencoded 366
+2024-11-28 14:22:34.592 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-28 14:22:34.593 +01:00 [INF] Route matched with {action = "Update", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(GalleryNote.Models.Image, Microsoft.AspNetCore.Http.IFormFile) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-28 14:22:34.598 +01:00 [ERR] ModelState error: The ImageFile field is required.
+2024-11-28 14:22:34.599 +01:00 [INF] Executing ViewResult, running view Update.
+2024-11-28 14:22:34.602 +01:00 [INF] Executed ViewResult - view Update executed in 3.2361ms.
+2024-11-28 14:22:34.602 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Update (GalleryNote) in 9.505ms
+2024-11-28 14:22:34.602 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-28 14:22:34.604 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Image/Update/4 - 200 null text/html; charset=utf-8 13.933ms
+2024-11-28 14:22:34.943 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Image/Update/4 - application/x-www-form-urlencoded 366
+2024-11-28 14:22:34.947 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-28 14:22:34.948 +01:00 [INF] Route matched with {action = "Update", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(GalleryNote.Models.Image, Microsoft.AspNetCore.Http.IFormFile) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-28 14:22:34.951 +01:00 [ERR] ModelState error: The ImageFile field is required.
+2024-11-28 14:22:34.951 +01:00 [INF] Executing ViewResult, running view Update.
+2024-11-28 14:22:34.956 +01:00 [INF] Executed ViewResult - view Update executed in 4.6656ms.
+2024-11-28 14:22:34.959 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Update (GalleryNote) in 10.85ms
+2024-11-28 14:22:34.959 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-28 14:22:34.960 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Image/Update/4 - 200 null text/html; charset=utf-8 16.7136ms
+2024-11-28 14:22:35.655 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Image/Update/4 - application/x-www-form-urlencoded 366
+2024-11-28 14:22:35.659 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-28 14:22:35.660 +01:00 [INF] Route matched with {action = "Update", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(GalleryNote.Models.Image, Microsoft.AspNetCore.Http.IFormFile) on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-28 14:22:35.665 +01:00 [ERR] ModelState error: The ImageFile field is required.
+2024-11-28 14:22:35.665 +01:00 [INF] Executing ViewResult, running view Update.
+2024-11-28 14:22:35.667 +01:00 [INF] Executed ViewResult - view Update executed in 1.4961ms.
+2024-11-28 14:22:35.667 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Update (GalleryNote) in 6.3101ms
+2024-11-28 14:22:35.667 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Update (GalleryNote)'
+2024-11-28 14:22:35.667 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Image/Update/4 - 200 null text/html; charset=utf-8 12.5908ms

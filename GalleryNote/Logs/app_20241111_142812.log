@@ -1,0 +1,38 @@
+2024-11-11 14:28:16.887 +01:00 [INF] User profile is available. Using 'C:\Users\birko\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-11 14:28:17.612 +01:00 [INF] Now listening on: http://localhost:5272
+2024-11-11 14:28:17.627 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-11 14:28:17.631 +01:00 [INF] Hosting environment: Development
+2024-11-11 14:28:17.631 +01:00 [INF] Content root path: C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\GalleryNote project\GalleryNote – Kopi
+2024-11-11 14:28:20.144 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-11-11 14:28:20.317 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-11 14:28:20.345 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-11 14:28:20.363 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-11 14:28:20.557 +01:00 [INF] Executed ViewResult - view Index executed in 193.4481ms.
+2024-11-11 14:28:20.563 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 215.8907ms
+2024-11-11 14:28:20.563 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-11 14:28:20.582 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 446.7613ms
+2024-11-11 14:28:23.264 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Table?active=active - null null
+2024-11-11 14:28:23.277 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Table (GalleryNote)'
+2024-11-11 14:28:23.297 +01:00 [INF] Route matched with {action = "Table", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-11 14:28:23.566 +01:00 [INF] Executing ViewResult, running view Table.
+2024-11-11 14:28:23.620 +01:00 [INF] Executed ViewResult - view Table executed in 54.7911ms.
+2024-11-11 14:28:23.620 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Table (GalleryNote) in 322.5053ms
+2024-11-11 14:28:23.621 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Table (GalleryNote)'
+2024-11-11 14:28:23.632 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Table?active=active - 200 null text/html; charset=utf-8 367.089ms
+2024-11-11 14:28:24.558 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/?active=active - null null
+2024-11-11 14:28:24.562 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-11 14:28:24.562 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-11 14:28:24.564 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-11 14:28:24.596 +01:00 [INF] Executed ViewResult - view Index executed in 33.0556ms.
+2024-11-11 14:28:24.596 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 33.7547ms
+2024-11-11 14:28:24.596 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-11 14:28:24.597 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/?active=active - 200 null text/html; charset=utf-8 38.6093ms
+2024-11-11 14:28:25.647 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Table?active=active - null null
+2024-11-11 14:28:25.652 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Table (GalleryNote)'
+2024-11-11 14:28:25.652 +01:00 [INF] Route matched with {action = "Table", controller = "Image", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-11 14:28:25.786 +01:00 [INF] Executing ViewResult, running view Table.
+2024-11-11 14:28:25.794 +01:00 [INF] Executed ViewResult - view Table executed in 7.3233ms.
+2024-11-11 14:28:25.794 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Table (GalleryNote) in 141.5178ms
+2024-11-11 14:28:25.794 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Table (GalleryNote)'
+2024-11-11 14:28:25.795 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Table?active=active - 200 null text/html; charset=utf-8 147.5536ms
+2024-11-11 14:28:31.287 +01:00 [INF] Application is shutting down...

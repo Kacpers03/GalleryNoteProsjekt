@@ -1,0 +1,37 @@
+@model ImagesViewModel
+@inject Microsoft.AspNetCore.Identity.UserManager<Microsoft.AspNetCore.Identity.IdentityUser> UserManager
+
+<h1 class="text-center mb-4"></h1>
+
+<!--Was originally set up as a grid, therefore it is called grid-->
+
+<div class="d-flex flex-column align-items-center">
+    @foreach (var image in Model.Images)
+    {
+        <div class="card mb-4" style="width: 100%; max-width: 600px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+
+            <!--Image-->
+            <div class="position-relative">
+                <a asp-action="Details" asp-route-id="@image.ImageId" class="stretched-link text-decoration-none"></a>
+                <img src="@image.ImageUrl" class="card-img-top" alt="Image" style="max-height: 400px; object-fit: cover;">
+            </div>
+
+            <!--Bio-->
+            <div class="card-body">
+                <p class="card-text">@image.Bio</p>
+            </div>
+
+            <!--Footer-->
+            <div class="card-footer bg-light d-flex flex-column">
+                <small class="text-muted mb-2">Uploaded by: @image.UploadedBy?.Split('@')[0]</small>
+                @if (image.UploadedById == UserManager.GetUserId(User))
+                {
+                    <div class="d-flex justify-content-between">
+                        <a class="btn btn-primary btn-sm" asp-action="Update" asp-route-id="@image.ImageId">Update</a>
+                        <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@image.ImageId">Delete</a>
+                    </div>
+                }
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,48 @@
+2024-10-10 13:41:28.180 +02:00 [INF] User profile is available. Using 'C:\Users\birko\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-10 13:41:28.444 +02:00 [INF] Now listening on: https://localhost:7004
+2024-10-10 13:41:28.448 +02:00 [INF] Now listening on: http://localhost:5272
+2024-10-10 13:41:28.456 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-10 13:41:28.459 +02:00 [INF] Hosting environment: Development
+2024-10-10 13:41:28.461 +02:00 [INF] Content root path: C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\GalleryNote project\GalleryNote
+2024-10-10 13:41:28.858 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-10-10 13:41:28.914 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-10-10 13:41:28.939 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-10-10 13:41:28.957 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-10 13:41:29.076 +02:00 [INF] Executed ViewResult - view Index executed in 121.9092ms.
+2024-10-10 13:41:29.082 +02:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 141.3421ms
+2024-10-10 13:41:29.082 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-10-10 13:41:29.089 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 236.6894ms
+2024-10-10 13:41:34.606 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Item/Table - null null
+2024-10-10 13:41:34.610 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.Table (GalleryNote)'
+2024-10-10 13:41:34.625 +02:00 [INF] Route matched with {action = "Table", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table() on controller GalleryNote.Controllers.ItemController (GalleryNote).
+2024-10-10 13:41:34.815 +02:00 [INF] Executing ViewResult, running view Table.
+2024-10-10 13:41:34.852 +02:00 [INF] Executed ViewResult - view Table executed in 38.7597ms.
+2024-10-10 13:41:34.852 +02:00 [INF] Executed action GalleryNote.Controllers.ItemController.Table (GalleryNote) in 227.1599ms
+2024-10-10 13:41:34.853 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.ItemController.Table (GalleryNote)'
+2024-10-10 13:41:34.866 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Item/Table - 200 null text/html; charset=utf-8 259.7181ms
+2024-10-10 13:41:34.888 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/chickenleg.jpg - null null
+2024-10-10 13:41:34.894 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/ribs.jpg - null null
+2024-10-10 13:41:34.896 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/cider.jpg - null null
+2024-10-10 13:41:34.893 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/frenchfries.jpg - null null
+2024-10-10 13:41:34.896 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/coke.jpg - null null
+2024-10-10 13:41:34.913 +02:00 [INF] The file /images/coke.jpg was not modified
+2024-10-10 13:41:34.913 +02:00 [INF] The file /images/frenchfries.jpg was not modified
+2024-10-10 13:41:34.913 +02:00 [INF] The file /images/chickenleg.jpg was not modified
+2024-10-10 13:41:34.913 +02:00 [INF] The file /images/cider.jpg was not modified
+2024-10-10 13:41:34.913 +02:00 [INF] The file /images/ribs.jpg was not modified
+2024-10-10 13:41:34.915 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/chickenleg.jpg - 304 null image/jpeg 26.6311ms
+2024-10-10 13:41:34.915 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/coke.jpg - 304 null image/jpeg 18.5455ms
+2024-10-10 13:41:34.915 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/frenchfries.jpg - 304 null image/jpeg 21.8609ms
+2024-10-10 13:41:34.915 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/ribs.jpg - 304 null image/jpeg 20.9326ms
+2024-10-10 13:41:34.915 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/cider.jpg - 304 null image/jpeg 19.4801ms
+2024-10-10 13:41:36.527 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Item/Create - null null
+2024-10-10 13:41:36.530 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.Create (GalleryNote)'
+2024-10-10 13:41:36.533 +02:00 [INF] Route matched with {action = "Create", controller = "Item"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller GalleryNote.Controllers.ItemController (GalleryNote).
+2024-10-10 13:41:36.538 +02:00 [INF] Executing ViewResult, running view Create.
+2024-10-10 13:41:36.686 +02:00 [INF] Executed ViewResult - view Create executed in 151.0768ms.
+2024-10-10 13:41:36.686 +02:00 [INF] Executed action GalleryNote.Controllers.ItemController.Create (GalleryNote) in 152.8185ms
+2024-10-10 13:41:36.687 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.ItemController.Create (GalleryNote)'
+2024-10-10 13:41:36.687 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Item/Create - 200 null text/html; charset=utf-8 160.5477ms
+2024-10-10 13:41:37.654 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Item/Create - application/x-www-form-urlencoded 218
+2024-10-10 13:41:37.657 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.Create (GalleryNote)'
+2024-10-10 13:41:37.694 +02:00 [INF] Route matched with {action = "Create", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(GalleryNote.Models.Item) on controller GalleryNote.Controllers.ItemController (GalleryNote).

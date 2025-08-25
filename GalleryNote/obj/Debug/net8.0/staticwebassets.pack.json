@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\birko\\OneDrive - OsloMet\\ITPE 3200 - Webapplikasjoner\\eksamen\\GalleryNote\\wwwroot\\images\\blad.jpg",
+      "PackagePath": "staticwebassets\\images\\blad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\birko\\OneDrive - OsloMet\\ITPE 3200 - Webapplikasjoner\\eksamen\\GalleryNote\\wwwroot\\images\\blomst.jpg",
+      "PackagePath": "staticwebassets\\images\\blomst.jpg"
+    },
+    {
+      "Id": "C:\\Users\\birko\\OneDrive - OsloMet\\ITPE 3200 - Webapplikasjoner\\eksamen\\GalleryNote\\wwwroot\\images\\example1.jpg",
+      "PackagePath": "staticwebassets\\images\\example1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\birko\\OneDrive - OsloMet\\ITPE 3200 - Webapplikasjoner\\eksamen\\GalleryNote\\wwwroot\\images\\example2.jpg",
+      "PackagePath": "staticwebassets\\images\\example2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\birko\\OneDrive - OsloMet\\ITPE 3200 - Webapplikasjoner\\eksamen\\GalleryNote\\wwwroot\\images\\example3.jpg",
+      "PackagePath": "staticwebassets\\images\\example3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\birko\\OneDrive - OsloMet\\ITPE 3200 - Webapplikasjoner\\eksamen\\GalleryNote\\wwwroot\\images\\skog.jpg",
+      "PackagePath": "staticwebassets\\images\\skog.jpg"
+    },
+    {
+      "Id": "C:\\Users\\birko\\OneDrive - OsloMet\\ITPE 3200 - Webapplikasjoner\\eksamen\\GalleryNote\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\birko\\OneDrive - OsloMet\\ITPE 3200 - Webapplikasjoner\\eksamen\\GalleryNote\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\birko\\OneDrive - OsloMet\\ITPE 3200 - Webapplikasjoner\\eksamen\\GalleryNote\\wwwroot\\js\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\birko\\OneDrive - OsloMet\\ITPE 3200 - Webapplikasjoner\\eksamen\\GalleryNote\\wwwroot\\js\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GalleryNote.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GalleryNote.props",
+      "PackagePath": "build\\GalleryNote.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GalleryNote.props",
+      "PackagePath": "buildMultiTargeting\\GalleryNote.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GalleryNote.props",
+      "PackagePath": "buildTransitive\\GalleryNote.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,62 @@
+2024-11-27 15:19:09.361 +01:00 [INF] User profile is available. Using 'C:\Users\birko\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-27 15:19:09.865 +01:00 [INF] Now listening on: http://localhost:5272
+2024-11-27 15:19:09.876 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-27 15:19:09.877 +01:00 [INF] Hosting environment: Development
+2024-11-27 15:19:09.878 +01:00 [INF] Content root path: C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\GalleryNote project\GalleryNote – Kopi
+2024-11-27 15:19:27.740 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-11-27 15:19:27.888 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-27 15:19:27.912 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-27 15:19:27.936 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-27 15:19:28.097 +01:00 [INF] Executed ViewResult - view Index executed in 169.592ms.
+2024-11-27 15:19:28.100 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 186.4896ms
+2024-11-27 15:19:28.101 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-11-27 15:19:28.119 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 384.3506ms
+2024-11-27 15:19:29.898 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Home/Upload?active=active - null null
+2024-11-27 15:19:30.088 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Upload (GalleryNote)'
+2024-11-27 15:19:30.092 +01:00 [INF] Route matched with {action = "Upload", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-27 15:19:30.094 +01:00 [INF] Executing ViewResult, running view Upload.
+2024-11-27 15:19:30.120 +01:00 [INF] Executed ViewResult - view Upload executed in 27.6133ms.
+2024-11-27 15:19:30.121 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Upload (GalleryNote) in 29.1579ms
+2024-11-27 15:19:30.122 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Upload (GalleryNote)'
+2024-11-27 15:19:30.125 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Home/Upload?active=active - 200 null text/html; charset=utf-8 226.849ms
+2024-11-27 15:19:40.386 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Image/Create - null null
+2024-11-27 15:19:40.453 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.ImageController.Create (GalleryNote)'
+2024-11-27 15:19:40.458 +01:00 [INF] Route matched with {action = "Create", controller = "Image", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller GalleryNote.Controllers.ImageController (GalleryNote).
+2024-11-27 15:19:40.465 +01:00 [INF] Executing ViewResult, running view Create.
+2024-11-27 15:19:40.549 +01:00 [INF] Executed ViewResult - view Create executed in 89.2468ms.
+2024-11-27 15:19:40.550 +01:00 [INF] Executed action GalleryNote.Controllers.ImageController.Create (GalleryNote) in 91.3426ms
+2024-11-27 15:19:40.550 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.ImageController.Create (GalleryNote)'
+2024-11-27 15:19:40.550 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Image/Create - 200 null text/html; charset=utf-8 164.445ms
+2024-11-27 15:19:42.023 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Home/Upload?active=active - null null
+2024-11-27 15:19:42.033 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Upload (GalleryNote)'
+2024-11-27 15:19:42.034 +01:00 [INF] Route matched with {action = "Upload", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-27 15:19:42.034 +01:00 [INF] Executing ViewResult, running view Upload.
+2024-11-27 15:19:42.038 +01:00 [INF] Executed ViewResult - view Upload executed in 4.3221ms.
+2024-11-27 15:19:42.039 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Upload (GalleryNote) in 4.7847ms
+2024-11-27 15:19:42.039 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Upload (GalleryNote)'
+2024-11-27 15:19:42.040 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Home/Upload?active=active - 200 null text/html; charset=utf-8 16.3737ms
+2024-11-27 15:19:48.551 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Create - null null
+2024-11-27 15:19:48.554 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Create (GalleryNote)'
+2024-11-27 15:19:48.559 +01:00 [INF] Route matched with {action = "Create", controller = "Note", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-11-27 15:19:48.562 +01:00 [INF] Executing ViewResult, running view Create.
+2024-11-27 15:19:48.604 +01:00 [INF] Executed ViewResult - view Create executed in 42.5725ms.
+2024-11-27 15:19:48.604 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Create (GalleryNote) in 44.8461ms
+2024-11-27 15:19:48.609 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Create (GalleryNote)'
+2024-11-27 15:19:48.611 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Create - 200 null text/html; charset=utf-8 59.589ms
+2024-11-27 15:19:54.347 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Note/Grid - null null
+2024-11-27 15:19:54.357 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-11-27 15:19:54.372 +01:00 [INF] Route matched with {action = "Grid", controller = "Note", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller GalleryNote.Controllers.NoteController (GalleryNote).
+2024-11-27 15:19:54.739 +01:00 [INF] Executing ViewResult, running view Grid.
+2024-11-27 15:19:54.751 +01:00 [INF] Executed ViewResult - view Grid executed in 12.9546ms.
+2024-11-27 15:19:54.751 +01:00 [INF] Executed action GalleryNote.Controllers.NoteController.Grid (GalleryNote) in 378.4192ms
+2024-11-27 15:19:54.751 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.NoteController.Grid (GalleryNote)'
+2024-11-27 15:19:54.765 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Note/Grid - 200 null text/html; charset=utf-8 418.0841ms
+2024-11-27 15:20:00.972 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Home/Upload?active=active - null null
+2024-11-27 15:20:00.984 +01:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Upload (GalleryNote)'
+2024-11-27 15:20:00.985 +01:00 [INF] Route matched with {action = "Upload", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-11-27 15:20:00.986 +01:00 [INF] Executing ViewResult, running view Upload.
+2024-11-27 15:20:00.990 +01:00 [INF] Executed ViewResult - view Upload executed in 4.3459ms.
+2024-11-27 15:20:00.990 +01:00 [INF] Executed action GalleryNote.Controllers.HomeController.Upload (GalleryNote) in 4.9054ms
+2024-11-27 15:20:00.990 +01:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Upload (GalleryNote)'
+2024-11-27 15:20:00.990 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Home/Upload?active=active - 200 null text/html; charset=utf-8 18.9292ms
+2024-11-27 15:22:51.598 +01:00 [INF] Application is shutting down...

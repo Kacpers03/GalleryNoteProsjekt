@@ -1,0 +1,155 @@
+2024-10-10 13:34:10.722 +02:00 [INF] User profile is available. Using 'C:\Users\birko\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-10 13:34:11.043 +02:00 [INF] Now listening on: https://localhost:7004
+2024-10-10 13:34:11.047 +02:00 [INF] Now listening on: http://localhost:5272
+2024-10-10 13:34:11.060 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-10 13:34:11.065 +02:00 [INF] Hosting environment: Development
+2024-10-10 13:34:11.069 +02:00 [INF] Content root path: C:\Users\birko\OneDrive - OsloMet\ITPE 3200 - Webapplikasjoner\GalleryNote project\GalleryNote
+2024-10-10 13:34:11.276 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/ - null null
+2024-10-10 13:34:11.326 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-10-10 13:34:11.349 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GalleryNote.Controllers.HomeController (GalleryNote).
+2024-10-10 13:34:11.367 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-10 13:34:11.488 +02:00 [INF] Executed ViewResult - view Index executed in 118.9282ms.
+2024-10-10 13:34:11.493 +02:00 [INF] Executed action GalleryNote.Controllers.HomeController.Index (GalleryNote) in 142.9524ms
+2024-10-10 13:34:11.493 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.HomeController.Index (GalleryNote)'
+2024-10-10 13:34:11.502 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/ - 200 null text/html; charset=utf-8 227.1613ms
+2024-10-10 13:34:11.512 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/fishandchips.jpg - null null
+2024-10-10 13:34:11.515 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/js/jquery.min.js - null null
+2024-10-10 13:34:11.515 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/pizza.jpg - null null
+2024-10-10 13:34:11.516 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/js/bootstrap.js - null null
+2024-10-10 13:34:11.541 +02:00 [INF] The file /js/bootstrap.js was not modified
+2024-10-10 13:34:11.541 +02:00 [INF] The file /images/pizza.jpg was not modified
+2024-10-10 13:34:11.541 +02:00 [INF] The file /images/fishandchips.jpg was not modified
+2024-10-10 13:34:11.541 +02:00 [INF] The file /js/jquery.min.js was not modified
+2024-10-10 13:34:11.542 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/js/jquery.min.js - 304 null text/javascript 30.4027ms
+2024-10-10 13:34:11.542 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/pizza.jpg - 304 null image/jpeg 26.9492ms
+2024-10-10 13:34:11.542 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/js/bootstrap.js - 304 null text/javascript 26.3135ms
+2024-10-10 13:34:11.542 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/fishandchips.jpg - 304 null image/jpeg 30.4467ms
+2024-10-10 13:34:11.552 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/images/tacos.jpg - null null
+2024-10-10 13:34:11.585 +02:00 [INF] The file /images/tacos.jpg was not modified
+2024-10-10 13:34:11.585 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/images/tacos.jpg - 304 null image/jpeg 33.2052ms
+2024-10-10 13:34:14.721 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Item/Table - null null
+2024-10-10 13:34:14.723 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.Table (GalleryNote)'
+2024-10-10 13:34:14.740 +02:00 [INF] Route matched with {action = "Table", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table() on controller GalleryNote.Controllers.ItemController (GalleryNote).
+2024-10-10 13:34:14.950 +02:00 [INF] Executing ViewResult, running view Table.
+2024-10-10 13:34:15.004 +02:00 [INF] Executed ViewResult - view Table executed in 56.1966ms.
+2024-10-10 13:34:15.004 +02:00 [INF] Executed action GalleryNote.Controllers.ItemController.Table (GalleryNote) in 263.6125ms
+2024-10-10 13:34:15.005 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.ItemController.Table (GalleryNote)'
+2024-10-10 13:34:15.018 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Item/Table - 200 null text/html; charset=utf-8 297.4121ms
+2024-10-10 13:34:20.384 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Item/Create - null null
+2024-10-10 13:34:20.391 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.Create (GalleryNote)'
+2024-10-10 13:34:20.406 +02:00 [INF] Route matched with {action = "Create", controller = "Item"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller GalleryNote.Controllers.ItemController (GalleryNote).
+2024-10-10 13:34:20.418 +02:00 [INF] Executing ViewResult, running view Create.
+2024-10-10 13:34:20.571 +02:00 [INF] Executed ViewResult - view Create executed in 158.0924ms.
+2024-10-10 13:34:20.571 +02:00 [INF] Executed action GalleryNote.Controllers.ItemController.Create (GalleryNote) in 164.9653ms
+2024-10-10 13:34:20.571 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.ItemController.Create (GalleryNote)'
+2024-10-10 13:34:20.572 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Item/Create - 200 null text/html; charset=utf-8 187.6512ms
+2024-10-10 13:34:46.387 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Item/Create - application/x-www-form-urlencoded 225
+2024-10-10 13:34:46.391 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.Create (GalleryNote)'
+2024-10-10 13:34:46.448 +02:00 [INF] Route matched with {action = "Create", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(GalleryNote.Models.Item) on controller GalleryNote.Controllers.ItemController (GalleryNote).
+2024-10-10 13:34:46.528 +02:00 [WRN] [ItemController] Item creation failed {"ItemId":0,"Name":"##","Price":0,"Description":null,"ImageUrl":null,"OrderItems":null,"$type":"Item"}
+2024-10-10 13:34:46.533 +02:00 [INF] Executing ViewResult, running view Create.
+2024-10-10 13:34:46.544 +02:00 [INF] Executed ViewResult - view Create executed in 11.7388ms.
+2024-10-10 13:34:46.545 +02:00 [INF] Executed action GalleryNote.Controllers.ItemController.Create (GalleryNote) in 96.405ms
+2024-10-10 13:34:46.545 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.ItemController.Create (GalleryNote)'
+2024-10-10 13:34:46.545 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Item/Create - 200 null text/html; charset=utf-8 157.9022ms
+2024-10-10 13:35:49.136 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Item/Create - application/x-www-form-urlencoded 426
+2024-10-10 13:35:49.142 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.Create (GalleryNote)'
+2024-10-10 13:35:49.148 +02:00 [INF] Route matched with {action = "Create", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(GalleryNote.Models.Item) on controller GalleryNote.Controllers.ItemController (GalleryNote).
+2024-10-10 13:35:49.365 +02:00 [INF] Executing RedirectResult, redirecting to /Item/Table.
+2024-10-10 13:35:49.365 +02:00 [INF] Executed action GalleryNote.Controllers.ItemController.Create (GalleryNote) in 216.8867ms
+2024-10-10 13:35:49.365 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.ItemController.Create (GalleryNote)'
+2024-10-10 13:35:49.366 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Item/Create - 302 0 null 231.3495ms
+2024-10-10 13:35:49.369 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Item/Table - null null
+2024-10-10 13:35:49.369 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.Table (GalleryNote)'
+2024-10-10 13:35:49.369 +02:00 [INF] Route matched with {action = "Table", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table() on controller GalleryNote.Controllers.ItemController (GalleryNote).
+2024-10-10 13:35:49.378 +02:00 [INF] Executing ViewResult, running view Table.
+2024-10-10 13:35:49.382 +02:00 [INF] Executed ViewResult - view Table executed in 3.4735ms.
+2024-10-10 13:35:49.382 +02:00 [INF] Executed action GalleryNote.Controllers.ItemController.Table (GalleryNote) in 12.4132ms
+2024-10-10 13:35:49.382 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.ItemController.Table (GalleryNote)'
+2024-10-10 13:35:49.383 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Item/Table - 200 null text/html; charset=utf-8 13.5176ms
+2024-10-10 13:35:55.861 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Item/Create - null null
+2024-10-10 13:35:55.862 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.Create (GalleryNote)'
+2024-10-10 13:35:55.863 +02:00 [INF] Route matched with {action = "Create", controller = "Item"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller GalleryNote.Controllers.ItemController (GalleryNote).
+2024-10-10 13:35:55.863 +02:00 [INF] Executing ViewResult, running view Create.
+2024-10-10 13:35:55.870 +02:00 [INF] Executed ViewResult - view Create executed in 6.8679ms.
+2024-10-10 13:35:55.871 +02:00 [INF] Executed action GalleryNote.Controllers.ItemController.Create (GalleryNote) in 7.7054ms
+2024-10-10 13:35:55.871 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.ItemController.Create (GalleryNote)'
+2024-10-10 13:35:55.871 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Item/Create - 200 null text/html; charset=utf-8 10.1524ms
+2024-10-10 13:36:18.512 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Item/Create - application/x-www-form-urlencoded 418
+2024-10-10 13:36:18.512 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.Create (GalleryNote)'
+2024-10-10 13:36:18.513 +02:00 [INF] Route matched with {action = "Create", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(GalleryNote.Models.Item) on controller GalleryNote.Controllers.ItemController (GalleryNote).
+2024-10-10 13:36:18.534 +02:00 [WRN] [ItemController] Item creation failed {"ItemId":0,"Name":null,"Price":0,"Description":"kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk","ImageUrl":null,"OrderItems":null,"$type":"Item"}
+2024-10-10 13:36:18.535 +02:00 [INF] Executing ViewResult, running view Create.
+2024-10-10 13:36:18.543 +02:00 [INF] Executed ViewResult - view Create executed in 7.9273ms.
+2024-10-10 13:36:18.544 +02:00 [INF] Executed action GalleryNote.Controllers.ItemController.Create (GalleryNote) in 30.474ms
+2024-10-10 13:36:18.544 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.ItemController.Create (GalleryNote)'
+2024-10-10 13:36:18.545 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Item/Create - 200 null text/html; charset=utf-8 32.7852ms
+2024-10-10 13:36:25.833 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Item/Create - application/x-www-form-urlencoded 424
+2024-10-10 13:36:25.834 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.Create (GalleryNote)'
+2024-10-10 13:36:25.834 +02:00 [INF] Route matched with {action = "Create", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(GalleryNote.Models.Item) on controller GalleryNote.Controllers.ItemController (GalleryNote).
+2024-10-10 13:36:25.864 +02:00 [INF] Executing RedirectResult, redirecting to /Item/Table.
+2024-10-10 13:36:25.866 +02:00 [INF] Executed action GalleryNote.Controllers.ItemController.Create (GalleryNote) in 31.2714ms
+2024-10-10 13:36:25.866 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.ItemController.Create (GalleryNote)'
+2024-10-10 13:36:25.867 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Item/Create - 302 0 null 34.2651ms
+2024-10-10 13:36:25.878 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Item/Table - null null
+2024-10-10 13:36:25.878 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.Table (GalleryNote)'
+2024-10-10 13:36:25.878 +02:00 [INF] Route matched with {action = "Table", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table() on controller GalleryNote.Controllers.ItemController (GalleryNote).
+2024-10-10 13:36:25.891 +02:00 [INF] Executing ViewResult, running view Table.
+2024-10-10 13:36:25.896 +02:00 [INF] Executed ViewResult - view Table executed in 4.9212ms.
+2024-10-10 13:36:25.896 +02:00 [INF] Executed action GalleryNote.Controllers.ItemController.Table (GalleryNote) in 18.1834ms
+2024-10-10 13:36:25.897 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.ItemController.Table (GalleryNote)'
+2024-10-10 13:36:25.897 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Item/Table - 200 null text/html; charset=utf-8 19.4202ms
+2024-10-10 13:37:41.747 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Item/Table - null null
+2024-10-10 13:37:41.755 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.Table (GalleryNote)'
+2024-10-10 13:37:41.766 +02:00 [INF] Route matched with {action = "Table", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table() on controller GalleryNote.Controllers.ItemController (GalleryNote).
+2024-10-10 13:37:41.792 +02:00 [INF] Executing ViewResult, running view Table.
+2024-10-10 13:37:41.795 +02:00 [INF] Executed ViewResult - view Table executed in 3.2545ms.
+2024-10-10 13:37:41.795 +02:00 [INF] Executed action GalleryNote.Controllers.ItemController.Table (GalleryNote) in 28.9732ms
+2024-10-10 13:37:41.796 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.ItemController.Table (GalleryNote)'
+2024-10-10 13:37:41.796 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Item/Table - 200 null text/html; charset=utf-8 49.6062ms
+2024-10-10 13:37:45.779 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Item/Delete/10 - null null
+2024-10-10 13:37:45.780 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.Delete (GalleryNote)'
+2024-10-10 13:37:45.793 +02:00 [INF] Route matched with {action = "Delete", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller GalleryNote.Controllers.ItemController (GalleryNote).
+2024-10-10 13:37:45.866 +02:00 [INF] Executing ViewResult, running view Delete.
+2024-10-10 13:37:45.875 +02:00 [INF] Executed ViewResult - view Delete executed in 9.62ms.
+2024-10-10 13:37:45.875 +02:00 [INF] Executed action GalleryNote.Controllers.ItemController.Delete (GalleryNote) in 81.4705ms
+2024-10-10 13:37:45.875 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.ItemController.Delete (GalleryNote)'
+2024-10-10 13:37:45.875 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Item/Delete/10 - 200 null text/html; charset=utf-8 96.9938ms
+2024-10-10 13:37:48.165 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Item/DeleteConfirmed/10 - application/x-www-form-urlencoded 182
+2024-10-10 13:37:48.166 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.DeleteConfirmed (GalleryNote)'
+2024-10-10 13:37:48.182 +02:00 [INF] Route matched with {action = "DeleteConfirmed", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteConfirmed(Int32) on controller GalleryNote.Controllers.ItemController (GalleryNote).
+2024-10-10 13:37:48.284 +02:00 [INF] Executing RedirectResult, redirecting to /Item/Table.
+2024-10-10 13:37:48.285 +02:00 [INF] Executed action GalleryNote.Controllers.ItemController.DeleteConfirmed (GalleryNote) in 103.0028ms
+2024-10-10 13:37:48.285 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.ItemController.DeleteConfirmed (GalleryNote)'
+2024-10-10 13:37:48.289 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Item/DeleteConfirmed/10 - 302 0 null 120.3443ms
+2024-10-10 13:37:48.299 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Item/Table - null null
+2024-10-10 13:37:48.299 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.Table (GalleryNote)'
+2024-10-10 13:37:48.300 +02:00 [INF] Route matched with {action = "Table", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table() on controller GalleryNote.Controllers.ItemController (GalleryNote).
+2024-10-10 13:37:48.315 +02:00 [INF] Executing ViewResult, running view Table.
+2024-10-10 13:37:48.318 +02:00 [INF] Executed ViewResult - view Table executed in 3.0743ms.
+2024-10-10 13:37:48.318 +02:00 [INF] Executed action GalleryNote.Controllers.ItemController.Table (GalleryNote) in 18.3772ms
+2024-10-10 13:37:48.318 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.ItemController.Table (GalleryNote)'
+2024-10-10 13:37:48.319 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Item/Table - 200 null text/html; charset=utf-8 20.1058ms
+2024-10-10 13:37:52.226 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Item/Delete/9 - null null
+2024-10-10 13:37:52.227 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.Delete (GalleryNote)'
+2024-10-10 13:37:52.227 +02:00 [INF] Route matched with {action = "Delete", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller GalleryNote.Controllers.ItemController (GalleryNote).
+2024-10-10 13:37:52.233 +02:00 [INF] Executing ViewResult, running view Delete.
+2024-10-10 13:37:52.236 +02:00 [INF] Executed ViewResult - view Delete executed in 2.595ms.
+2024-10-10 13:37:52.237 +02:00 [INF] Executed action GalleryNote.Controllers.ItemController.Delete (GalleryNote) in 9.8107ms
+2024-10-10 13:37:52.237 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.ItemController.Delete (GalleryNote)'
+2024-10-10 13:37:52.238 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Item/Delete/9 - 200 null text/html; charset=utf-8 11.6334ms
+2024-10-10 13:38:04.567 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5272/Item/DeleteConfirmed/9 - application/x-www-form-urlencoded 182
+2024-10-10 13:38:04.568 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.DeleteConfirmed (GalleryNote)'
+2024-10-10 13:38:04.568 +02:00 [INF] Route matched with {action = "DeleteConfirmed", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteConfirmed(Int32) on controller GalleryNote.Controllers.ItemController (GalleryNote).
+2024-10-10 13:38:04.604 +02:00 [INF] Executing RedirectResult, redirecting to /Item/Table.
+2024-10-10 13:38:04.605 +02:00 [INF] Executed action GalleryNote.Controllers.ItemController.DeleteConfirmed (GalleryNote) in 36.5445ms
+2024-10-10 13:38:04.605 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.ItemController.DeleteConfirmed (GalleryNote)'
+2024-10-10 13:38:04.606 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5272/Item/DeleteConfirmed/9 - 302 0 null 38.9971ms
+2024-10-10 13:38:04.614 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5272/Item/Table - null null
+2024-10-10 13:38:04.614 +02:00 [INF] Executing endpoint 'GalleryNote.Controllers.ItemController.Table (GalleryNote)'
+2024-10-10 13:38:04.615 +02:00 [INF] Route matched with {action = "Table", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table() on controller GalleryNote.Controllers.ItemController (GalleryNote).
+2024-10-10 13:38:04.623 +02:00 [INF] Executing ViewResult, running view Table.
+2024-10-10 13:38:04.625 +02:00 [INF] Executed ViewResult - view Table executed in 2.037ms.
+2024-10-10 13:38:04.626 +02:00 [INF] Executed action GalleryNote.Controllers.ItemController.Table (GalleryNote) in 10.6428ms
+2024-10-10 13:38:04.626 +02:00 [INF] Executed endpoint 'GalleryNote.Controllers.ItemController.Table (GalleryNote)'
+2024-10-10 13:38:04.626 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5272/Item/Table - 200 null text/html; charset=utf-8 12.5541ms
