@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GalleryNote")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0c12045296350d34e403e685f1d206983885418")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bfe11b4379b708d97741716bcab03ef8febb990")]
 [assembly: System.Reflection.AssemblyProductAttribute("GalleryNote")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GalleryNote")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
