@@ -1,4 +1,4 @@
-GalleryNote — Sub-application 1 (ASP.NET MVC)
+GalleryNote — School project (ASP.NET MVC)
 GalleryNote (Sub-app 1) is an ASP.NET MVC app that lets users upload and manage images and notes. Anyone can view content, while creating, editing, and deleting requires authentication.
 
 Tech Stack
