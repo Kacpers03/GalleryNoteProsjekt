@@ -26,4 +26,6 @@ You must be signed in to create images/notes; viewing is open for everyone.
 
 
 Frontpage:
+
+
 <img width="744" height="689" alt="Skjermbilde 2025-08-25 kl  20 53 49" src="https://github.com/user-attachments/assets/dc6ae5a4-ea86-4f4f-acbf-949e0666f6c2" />
