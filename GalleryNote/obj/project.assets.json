@@ -7126,19 +7126,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\birko\\.nuget\\packages\\": {}
+    "/Users/kacperserafin/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\birko\\OneDrive - OsloMet\\ITPE 3200 - Webapplikasjoner\\eksamen\\GalleryNote\\GalleryNote.csproj",
+      "projectUniqueName": "/Users/kacperserafin/Desktop/GalleryNoteProsjekt/GalleryNote/GalleryNote.csproj",
       "projectName": "GalleryNote",
-      "projectPath": "C:\\Users\\birko\\OneDrive - OsloMet\\ITPE 3200 - Webapplikasjoner\\eksamen\\GalleryNote\\GalleryNote.csproj",
-      "packagesPath": "C:\\Users\\birko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\birko\\OneDrive - OsloMet\\ITPE 3200 - Webapplikasjoner\\eksamen\\GalleryNote\\obj\\",
+      "projectPath": "/Users/kacperserafin/Desktop/GalleryNoteProsjekt/GalleryNote/GalleryNote.csproj",
+      "packagesPath": "/Users/kacperserafin/.nuget/packages/",
+      "outputPath": "/Users/kacperserafin/Desktop/GalleryNoteProsjekt/GalleryNote/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\birko\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/kacperserafin/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -7227,7 +7227,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
